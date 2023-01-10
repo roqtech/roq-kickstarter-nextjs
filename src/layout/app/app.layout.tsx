@@ -1,13 +1,10 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
 import styles from "layout/app/app.layout.module.css";
 import Image from "next/image";
 import { NotificationBell, ChatMessageBell } from "@roq/ui-react";
 import { useRouter } from "next/router";
 import { signOut } from "next-auth/react";
 import Link from "next/link";
-
-const inter = Inter({ subsets: ["latin"] });
 
 interface AppLayoutProps {
   children: React.ReactNode;
