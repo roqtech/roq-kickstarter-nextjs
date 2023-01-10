@@ -3,7 +3,7 @@
 This is a [ROQ](https://roq.tech) project showcasing how to use ROQ UI widgets and backend APIs with a combination of these technologies
 
 - [ROQ React Components](https://www.npmjs.com/package/@roq/ui-react)
-- [ROQ Node.js SDK](https://www.npmjs.com/package/ronodejs-sdk)
+- [ROQ Node.js SDK](https://www.npmjs.com/package/@roq/nodejs)
 - [Next.js](https://nextjs.org), bootstrapped with `create-next-app`
 - [Prisma ORM](https://www.prisma.io) with Postgres
 
