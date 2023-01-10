@@ -33,7 +33,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
               className={styles.logo}
               src="/roq.svg"
               alt="ROQ Logo"
-              width={200}
+              width={90}
               height={80}
               priority
             />

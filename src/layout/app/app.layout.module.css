@@ -40,6 +40,9 @@
 }
 
 @media only screen and (max-width: 1280px) {
+    .header {
+        padding: 10px;
+    }
     .content {
         padding: 40px 20px;
     }
