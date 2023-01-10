@@ -43,4 +43,4 @@ Your app should be running at [http://localhost:3000](http://localhost:3000) by 
 
 ## Further documentation
 
-To learn more about ROQ UI components and APIs, take a look at [ROQ Documentation](https://nextjs.org/docs)
+To learn more about ROQ UI components and APIs, take a look at [ROQ Documentation](https://docs.roq.tech)
