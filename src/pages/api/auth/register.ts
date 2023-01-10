@@ -10,6 +10,7 @@ export interface UserRegisterDto {
   password: string;
 }
 
+// Request handler for registering a new user
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
@@ -18,7 +19,6 @@ export default async function handler(
     res.status(405).send({ message: "Method not allowed" });
     res.end();
   }
-
   const { email, password, name } = req.body as UserRegisterDto;
 
   // Fail if the user exists already
@@ -30,6 +30,7 @@ export default async function handler(
   }
 
   // STEP 1 - Sync the user to ROQ
+  //the user reference (a reference to your user on ROQ - usually a userId or unique identifier) is required while creating the user on ROQ
   const userId = uuid();
   const roqUser = await roqClient.asSuperAdmin().createUser({
     user: {
