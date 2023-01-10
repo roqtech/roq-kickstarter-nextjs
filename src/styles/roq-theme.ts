@@ -6,7 +6,6 @@ export const roqThemeLight = createCustomTheme({
     primary: "#A07EFF",
     secondary: "#CA58FF",
   },
-  typography: {},
   spacing: {
     borderRadius: "16px",
   },
