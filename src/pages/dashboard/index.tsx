@@ -47,7 +47,7 @@ export default function DashboardPage() {
     <AppLayout>
       <h1 className={styles.pageTitle}>File uploads</h1>
       <h3 className={styles.pageTitle}>
-        Here's an example of a controlled file upload
+        Here&apos;s an example of a controlled file upload
       </h3>
 
       <div className={styles.uploadContainer}>
