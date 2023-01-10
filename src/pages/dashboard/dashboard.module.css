@@ -1,0 +1,19 @@
+.pageTitle {
+    margin-bottom: 40px;
+}
+.uploadContainer {
+    width: 500px;
+    max-width: 100%;
+}
+
+.preview {
+    display: block;
+    margin: 20px 0px;
+    border-radius: 18px;
+    width: 300px;
+}
+
+.uploadMeta {
+    margin-top: 20px;
+    display: block;
+}

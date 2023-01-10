@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    min-height: 100vh;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    right: 0px;
+    padding: 10px 50px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    box-shadow: rgba(var(--light-grey),.3) 14px 17px 40px 4px
+}
+
+.logo {
+    color: #000000;
+    margin-top: -10px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.content {
+    padding: 40px 200px;
+    margin-top: 60px;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+.bellContainer {
+    display: flex;
+}
+
+@media only screen and (max-width: 1280px) {
+    .content {
+        padding: 40px 20px;
+    }
+}
+
