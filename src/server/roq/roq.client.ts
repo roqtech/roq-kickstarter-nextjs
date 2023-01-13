@@ -5,5 +5,4 @@ export const roqClient = new Platform({
   host: serverConfig.roq.platformUrl,
   environmentId: serverConfig.roq.environmentId,
   apiKey: serverConfig.roq.apiKey,
-  jwtSecret: serverConfig.roq.jwtSecret,
 });
