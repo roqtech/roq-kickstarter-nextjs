@@ -1,4 +1,4 @@
-## ROQ Next.js, Prisma, Quickstart
+## ROQ SaaS template with Next.js, Prisma
 
 This is a [ROQ](https://roq.tech) project showcasing how to use ROQ UI widgets and backend APIs with a combination of these technologies
 
