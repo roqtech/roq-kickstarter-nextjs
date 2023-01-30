@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import { useSession } from "next-auth/react";
+import { useSession } from "@roq/ui-react";
 import { useRouter } from "next/router";
 import AppLayout from "layout/app/app.layout";
 import { useRoqFileUploader, FileUpload } from "@roq/ui-react";
 import styles from "pages/dashboard/dashboard.module.css";
 import Link from "next/link";
+import Card from "components/card/card";
 
 export default function DashboardPage() {
   const session = useSession();
@@ -45,45 +46,47 @@ export default function DashboardPage() {
 
   return (
     <AppLayout>
-      <h1 className={styles.pageTitle}>File uploads</h1>
-      <h3 className={styles.pageTitle}>
-        Here&apos;s an example of a controlled file upload
-      </h3>
+      <Card>
+        <h1 className={styles.pageTitle}>File uploads</h1>
+        <h3 className={styles.pageTitle}>
+          Here&apos;s an example of a controlled file upload
+        </h3>
 
-      <div className={styles.uploadContainer}>
-        {/* Display the uploader button */}
-        <FileUpload
-          fileUploader={fileUploader}
-          accept={["image/*"]}
-          fileCategory="USER_FILES"
-        />
+        <div className={styles.uploadContainer}>
+          {/* Display the uploader button */}
+          <FileUpload
+            fileUploader={fileUploader}
+            accept={["image/*"]}
+            fileCategory="USER_FILES"
+          />
 
-        {/* Images can be previewed using the previews property of the file uploader object */}
-        <img
-          className={styles.preview}
-          width={"100%"}
-          src={fileUploader.previews?.[0]?.url}
-        />
+          {/* Images can be previewed using the previews property of the file uploader object */}
+          <img
+            className={styles.preview}
+            width={"100%"}
+            src={fileUploader.previews?.[0]?.url}
+          />
 
-        {file ? (
-          <button className="btn" onClick={handleUpload}>
-            Upload File
-          </button>
-        ) : (
-          <></>
-        )}
+          {file ? (
+            <button className="btn" onClick={handleUpload}>
+              Upload File
+            </button>
+          ) : (
+            <></>
+          )}
 
-        {fileUrl ? (
-          <div className={styles.uploadMeta}>
-            Your file is uploaded, and accessible from this S3 URL:
-            <Link href={fileUrl} target="_blank">
-              {fileUrl}
-            </Link>
-          </div>
-        ) : (
-          <></>
-        )}
-      </div>
+          {fileUrl ? (
+            <div className={styles.uploadMeta}>
+              Your file is uploaded, and accessible from this S3 URL:
+              <Link href={fileUrl} target="_blank">
+                {fileUrl}
+              </Link>
+            </div>
+          ) : (
+            <></>
+          )}
+        </div>
+      </Card>
     </AppLayout>
   );
 }

@@ -15,12 +15,12 @@ export default function AuthLayout({ children }: AppLayoutProps) {
         <title>ROQ Next.js Prisma</title>
         <meta
           name="description"
-          content="ROQ starter kit with Next.js, Prisma, and PSQL "
+          content="ROQ starter kit with Next.js, Prisma, and PSQL"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>{children}</main>
+      <div className={styles.main}>{children}</div>
     </>
   );
 }

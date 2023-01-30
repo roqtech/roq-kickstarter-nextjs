@@ -1,9 +1,9 @@
 import Head from "next/head";
 import styles from "layout/app/app.layout.module.css";
 import Image from "next/image";
-import { NotificationBell, ChatMessageBell } from "@roq/ui-react";
+import { NotificationBell, ChatMessageBell, signOut } from "@roq/ui-react";
 import { useRouter } from "next/router";
-import { signOut } from "next-auth/react";
+
 import Link from "next/link";
 
 interface AppLayoutProps {
@@ -15,10 +15,10 @@ export default function AppLayout({ children }: AppLayoutProps) {
   return (
     <>
       <Head>
-        <title>ROQ Next.js Prisma</title>
+        <title>ROQ Next.js Prisma SaaS Template</title>
         <meta
           name="description"
-          content="ROQ starter kit with Next.js, Prisma, and PSQL "
+          content="ROQ starter kit with Next.js, Prisma, and PSQL"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

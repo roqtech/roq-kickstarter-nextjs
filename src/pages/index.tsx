@@ -1,3 +1,3 @@
-import LoginPage from "pages/login";
+import DashboardPage from "pages/dashboard";
 
-export default LoginPage;
+export default DashboardPage;

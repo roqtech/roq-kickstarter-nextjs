@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useSession } from "next-auth/react";
+import { useSession } from "@roq/ui-react";
 import { useRouter } from "next/router";
 import AppLayout from "layout/app/app.layout";
 import { Chat } from "@roq/ui-react";
