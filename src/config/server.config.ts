@@ -6,6 +6,8 @@ export interface ServerConfigInterface {
     baseURL: string;
     clientId: string;
     clientSecret: string;
+    environmentId: string;
+    apiKey: string;
     platformURL: string;
     authURL: string;
     loginURL: string;
@@ -35,6 +37,11 @@ if (typeof window === "undefined") {
         .string()
         .required()
         .validateSync(process.env.ROQ_CLIENT_SECRET),
+      environmentId: yup
+        .string()
+        .required()
+        .validateSync(process.env.ROQ_ENVIRONMENT_ID),
+      apiKey: yup.string().required().validateSync(process.env.ROQ_API_KEY),
       authSecret: yup
         .string()
         .required()

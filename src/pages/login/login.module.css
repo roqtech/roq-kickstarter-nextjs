@@ -45,18 +45,6 @@
   margin-left: -400px;
 }
 
-.inputText {
-  height: 50px;
-  width: 100%;
-  background-color: #ffffff;
-  border: solid 1px rgba(var(--light-grey),1) ;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  padding: 0px 10px;
-}
-.inputText:focus,.inputText:active {
-  border: solid 1px rgba(var(--primary-color-rgb),1);
-}
 
 .logo {
   position: relative;

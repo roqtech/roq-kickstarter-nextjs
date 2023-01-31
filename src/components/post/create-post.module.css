@@ -1,0 +1,28 @@
+.inputText {
+    width: 100%;
+    background-color: #ffffff;
+    border: solid 1px rgba(var(--light-grey-rgb),1) ;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    padding: 20px;
+    resize: none;
+}
+
+.inputText:focus,.inputText:active {
+    border: solid 1px rgba(var(--primary-color-rgb),1);
+}
+  
+
+.uploadContainer {
+    width: 500px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.preview {
+    display: block;
+    margin: 20px 0px;
+    border-radius: 18px;
+    width: 300px;
+}
+

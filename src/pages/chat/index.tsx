@@ -1,18 +1,12 @@
 import { useEffect } from "react";
-import { useSession } from "@roq/ui-react";
+import { useSession, Chat } from "@roq/ui-react";
 import { useRouter } from "next/router";
 import AppLayout from "layout/app/app.layout";
-import { Chat } from "@roq/ui-react";
+import { withAuth } from "components/hocs/auth/with-auth";
+import { routes } from "routes";
 
-export default function ChatPage() {
-  const session = useSession();
+function ChatPage() {
   const router = useRouter();
-
-  useEffect(() => {
-    if (session.status === "unauthenticated") {
-      router.push("/login");
-    }
-  }, [session]);
 
   return (
     <AppLayout>
@@ -20,3 +14,8 @@ export default function ChatPage() {
     </AppLayout>
   );
 }
+
+export default withAuth({
+  redirectIfAuthenticated: false,
+  redirectTo: routes.frontend.login,
+})(ChatPage);

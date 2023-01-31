@@ -1,0 +1,42 @@
+.postCard {
+    width: 350px;
+    padding: 10px!important;
+    height: 400px;
+}
+
+.postContent {
+    display: flex;
+    flex-direction: column;    
+}
+
+.postImgContainer {
+    margin-right: 20px;
+    border-radius: 16px;
+    width: 330px;
+    background-color: rgba(var(--light-grey-rgb),.3);
+    overflow: hidden;
+}
+
+.postImg {
+    object-fit: cover;
+    width: 330px;
+    height: 250px;
+    
+}
+
+.postText {
+    height: 85px;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.timestamp {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(var(--light-grey-rgb));
+}

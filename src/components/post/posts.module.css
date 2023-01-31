@@ -1,0 +1,10 @@
+.title {
+    margin-bottom: 30px;
+}
+
+.listContainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+

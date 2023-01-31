@@ -1,26 +1,20 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { withAuth, getServerSession } from "@roq/nextjs";
-import { FileService } from "server/services/file.service";
-import { FileCategories } from "server/enums";
-import { FilesQueryDto } from "server/dtos/files-query.dto";
+import { CreatePostDto } from "server/dtos/create-post.dto";
+import { PostService } from "server/services/post.service";
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
-  if (req.method !== "GET") {
+  if (req.method !== "POST") {
     res.status(405).send({ message: "Method not allowed" });
     res.end();
   }
 
-  const { limit, offset } = req.query as FilesQueryDto;
+  const { body, fileId } = req.body as CreatePostDto;
   const session = getServerSession(req, res);
 
-  const filesResult = await FileService.getFiles(
-    session.roqUserId,
-    FileCategories.userFiles,
-    limit,
-    offset
-  );
+  const post = await PostService.createPost(session.roqUserId, body, fileId);
 
-  res.status(200).json(filesResult);
+  res.status(200).json({ post });
 }
 
 export default function (req: NextApiRequest, res: NextApiResponse) {

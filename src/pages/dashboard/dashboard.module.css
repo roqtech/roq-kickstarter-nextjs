@@ -1,19 +1,13 @@
-.pageTitle {
-    margin-bottom: 40px;
-}
-.uploadContainer {
-    width: 500px;
-    max-width: 100%;
-}
-
-.preview {
-    display: block;
-    margin: 20px 0px;
-    border-radius: 18px;
-    width: 300px;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
 }
 
-.uploadMeta {
-    margin-top: 20px;
+.column {
     display: block;
+    width: calc(50% - 10px);
+    min-width: 400px;
 }

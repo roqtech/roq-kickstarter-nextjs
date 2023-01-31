@@ -1,1 +1,1 @@
-export { roqClient } from "./roq.client";
+export { roqClient } from "server/roq/roq-client";

@@ -14,7 +14,7 @@
     padding: 10px 50px;
     background-color: #FFFFFF;
     overflow: hidden;
-    box-shadow: rgba(var(--light-grey),.3) 14px 17px 40px 4px
+    box-shadow: rgba(var(--light-grey-rgb),.3) 14px 17px 40px 4px
 }
 
 .logo {

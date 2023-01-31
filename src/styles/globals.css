@@ -7,9 +7,7 @@
 
   --foreground-rgb: 0, 0, 0;
   --primary-color-rgb: 160, 125, 255;
-  --light-grey: 201,197,211;
-  --background-start-rgb: 255,253,245;
-  --background-end-rgb: 201,197,211;
+  --light-grey-rgb: 201,197,211;
 }
 
 * {
@@ -72,4 +70,9 @@ a {
 .btn:active{
   cursor: pointer;
   box-shadow: 0 0 10px rgba(var(--primary-color-rgb),1) ;
+}
+
+.btn:disabled {
+  cursor:not-allowed;
+  background-color:  rgba(var(--primary-color-rgb), .5);
 }
