@@ -16,9 +16,15 @@ const LoginPage = function () {
           height={200}
           priority
         />
-        <button className="btn btn-block" onClick={signIn}>
-          Login
+        <button
+          className="btn btn-block"
+          onClick={() => (window.location.href = "/api/auth/signup")}
+        >
+          Register
         </button>
+        <div onClick={signIn}>
+          <a href="#">Login</a>
+        </div>
       </div>
 
       <a

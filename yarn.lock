@@ -822,10 +822,8 @@
     rc-trigger "^5.3.4"
     rc-util "^5.24.4"
 
-"@roq/nextjs@^0.1.30":
-  version "0.1.30"
-  resolved "https://registry.yarnpkg.com/@roq/nextjs/-/nextjs-0.1.30.tgz#a3c5e4aeca8c284e4fc5f4bb7b846836260067ad"
-  integrity sha512-8SApmNs0e6ur1082Twh7jFBSaxg3i37g5jJ7RHVbjfbfTc1QgusK/e8Na0yTTppCmln7YlnfGdbl5m3AtSQfbg==
+"@roq/nextjs@../../sdks/roq-nextjs":
+  version "0.1.31"
   dependencies:
     cookie "^0.5.0"
     next "^13.1.5"
