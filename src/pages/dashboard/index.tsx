@@ -7,8 +7,9 @@ import styles from "pages/dashboard/dashboard.module.css";
 function DashboardPage() {
   return (
     <AppLayout>
-      <Posts />
-      <div className={styles.container}></div>
+      <div className={styles.container}>
+        <Posts />
+      </div>
     </AppLayout>
   );
 }

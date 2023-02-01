@@ -1,16 +1,12 @@
-import { useEffect } from "react";
-import { useSession, Chat } from "@roq/nextjs";
-import { useRouter } from "next/router";
 import AppLayout from "layout/app/app.layout";
 import { withAuth } from "components/hocs/auth/with-auth";
+import { UserInvitesTable } from "@roq/ui-react";
 import { routes } from "routes";
 
-function ChatPage() {
-  const router = useRouter();
-
+function InvitesPage() {
   return (
     <AppLayout>
-      <Chat />
+      <UserInvitesTable />
     </AppLayout>
   );
 }
@@ -18,4 +14,4 @@ function ChatPage() {
 export default withAuth({
   redirectIfAuthenticated: false,
   redirectTo: routes.frontend.login,
-})(ChatPage);
+})(InvitesPage);

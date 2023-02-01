@@ -1,13 +1,6 @@
 .container {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
-    gap: 20px;
     justify-content: center;
 }
 
-.column {
-    display: block;
-    width: calc(50% - 10px);
-    min-width: 400px;
-}

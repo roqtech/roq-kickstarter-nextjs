@@ -1,4 +1,4 @@
-import { signIn } from "@roq/ui-react";
+import { signIn } from "@roq/nextjs";
 import Image from "next/image";
 import styles from "pages/login/login.module.css";
 import AuthLayout from "layout/auth/auth.layout";

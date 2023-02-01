@@ -3,6 +3,7 @@ import styles from "layout/app/app.layout.module.css";
 import Image from "next/image";
 import { NotificationBell, ChatMessageBell, signOut } from "@roq/ui-react";
 import { useRouter } from "next/router";
+import { routes } from "routes";
 
 import Link from "next/link";
 
@@ -36,6 +37,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
             />
           </Link>
           <div className={styles.bellContainer}>
+            <Link href={routes.frontend.invites}>Invite users</Link>
             <NotificationBell />
             <ChatMessageBell onClick={() => router.push("/chat")} />
             <div className={styles.logout}>

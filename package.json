@@ -11,9 +11,9 @@
   "dependencies": {
     "@next/font": "13.1.1",
     "@prisma/client": "^4.8.0",
-    "@roq/nextjs": "../../sdks/roq-nextjs",
+    "@roq/nextjs": "0.1.35",
     "@roq/nodejs": "^0.1.9",
-    "@roq/ui-react": "^0.1.23",
+    "@roq/ui-react": "^0.1.24",
     "bcrypt": "^5.1.0",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.1",

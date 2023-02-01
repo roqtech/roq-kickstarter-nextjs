@@ -3,9 +3,9 @@
 
 
 "@apollo/client@^3.7.1":
-  version "3.7.5"
-  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.7.5.tgz#d2ab6e284822296c9102ff57ab3a8dcbaa818052"
-  integrity sha512-HEAhX2n2Y8Y2BwRr0UdteT94OTM7pn64K5/rTk/oLIdg/h7R2d83LdsCGDxSH5sBiqDqlv9vou4xdyTxxRWj/g==
+  version "3.7.6"
+  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.7.6.tgz#fdc2ce3c440c7edda70fc02b0244a05128fef696"
+  integrity sha512-K0l8+wgcdVDjdgI8O2YuhX1CiQlavGuBp8HR/+PEbc2+jqM/BaVpL0g7YAuXrTW20np/MXHNRDxK20/ujF9hjA==
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.1"
     "@wry/context" "^0.7.0"
@@ -615,8 +615,10 @@
   resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-4.8.1.tgz#8428f7dcd7912c6073024511376595017630dc85"
   integrity sha512-93tctjNXcIS+i/e552IO6tqw17sX8liivv8WX9lDMCpEEe3ci+nT9F+1oHtAafqruXLepKF80i/D20Mm+ESlOw==
 
-"@roq/nextjs@../../sdks/roq-nextjs":
-  version "0.1.33"
+"@roq/nextjs@0.1.35":
+  version "0.1.35"
+  resolved "https://registry.yarnpkg.com/@roq/nextjs/-/nextjs-0.1.35.tgz#60169bfedcb5e86212726fc5b58818320692df06"
+  integrity sha512-N7PeO5JzYeLO6eH1aNC1M/e1Sm59evl47nmAt3qAPmB7caVkXEnmTjuCIcwdj6jOsP9Eypjj+SwHpD8g/+qsOw==
   dependencies:
     cookie "^0.5.0"
     next "^13.1.5"
@@ -639,10 +641,10 @@
     node-cache "^5.1.2"
     node-fetch "^2.6.7"
 
-"@roq/ui-react@^0.1.23":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@roq/ui-react/-/ui-react-0.1.23.tgz#0a8b7e4a1dcb0ad100302adf11c68dbe7893a624"
-  integrity sha512-//TdZNOOn5F13xfBfVOKytJI0vVV5o9L4pQTuToV9MT4wH3Tb3Xvp1mnML99h8X9hwqCjmx4oCKqpEdvG0p6oQ==
+"@roq/ui-react@^0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@roq/ui-react/-/ui-react-0.1.24.tgz#90e55c12774499a6058c6377f33df0276efe167c"
+  integrity sha512-cgTpM92pXx+jb375FkoT1M3K1H73f/BllQAYMdYi9TBpPP4glxk5Ij6wd/ssDzyWz/GeJjU64uk0Ik/g5IXHsA==
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.0.1"
@@ -659,6 +661,7 @@
     formik "^2.2.9"
     graphql "^15.8.0"
     html-react-parser "^3.0.4"
+    javascript-time-ago "^2.3.7"
     jwt-decode "^3.1.2"
     lexical "^0.7.5"
     lodash "^4.17.21"
@@ -1091,9 +1094,9 @@ axe-core@^4.6.2:
   integrity sha512-b1WlTV8+XKLj9gZy2DZXgQiyDp9xkkoe2a6U6UbYccScq2wgH/YwCeI2/Jq2mgo0HzQxqJOjWZBLeA/mqsk5Mg==
 
 axios@^1.2.2:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.2.6.tgz#eacb6d065baa11bad5959e7ffa0cb6745c65f392"
-  integrity sha512-rC/7F08XxZwjMV4iuWv+JpD3E0Ksqg9nac4IIg6RwNuF0JTeWoCo/mBNG54+tNhhI11G3/VDRbdDQTs9hGp4pQ==
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.3.0.tgz#4cb0d72213989dec08d4b10129e42063bcb3dc78"
+  integrity sha512-oCye5nHhTypzkdLIvF9SaHfr8UAquqCn1KY3j8vsrjeol8yohAdGxIpRPbF1bOLsx33HOAatdfMX1yzsj2cHwg==
   dependencies:
     follow-redirects "^1.15.0"
     form-data "^4.0.0"
@@ -3057,7 +3060,7 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-javascript-time-ago@^2.5.9:
+javascript-time-ago@^2.3.7, javascript-time-ago@^2.5.9:
   version "2.5.9"
   resolved "https://registry.yarnpkg.com/javascript-time-ago/-/javascript-time-ago-2.5.9.tgz#3c5d8012cd493d764c6b26a0ffe6e8b20afcf1fe"
   integrity sha512-pQ8mNco/9g9TqWXWWjP0EWl6i/lAQScOyEeXy5AB+f7MfLSdgyV9BJhiOD1zrIac/lrxPYOWNbyl/IW8CW5n0A==
@@ -4561,9 +4564,9 @@ sanitize-html@^2.7.2:
     postcss "^8.3.11"
 
 sass@^1.49.0:
-  version "1.57.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.57.1.tgz#dfafd46eb3ab94817145e8825208ecf7281119b5"
-  integrity sha512-O2+LwLS79op7GI0xZ8fqzF7X2m/m8WFfI02dHOdsK5R2ECeS5F62zrwg/relM1rjSLy7Vd/DiMNIvPrQGsA0jw==
+  version "1.58.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.58.0.tgz#ee8aea3ad5ea5c485c26b3096e2df6087d0bb1cc"
+  integrity sha512-PiMJcP33DdKtZ/1jSjjqVIKihoDc6yWmYr9K/4r3fVVIEDAluD0q7XZiRKrNJcPK3qkLRF/79DND1H5q1LBjgg==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"

@@ -1,5 +1,5 @@
 .postCard {
-    width: 350px;
+    width: 300px;
     padding: 10px!important;
     height: 400px;
 }
@@ -12,14 +12,14 @@
 .postImgContainer {
     margin-right: 20px;
     border-radius: 16px;
-    width: 330px;
+    width: 280px;
     background-color: rgba(var(--light-grey-rgb),.3);
     overflow: hidden;
 }
 
 .postImg {
     object-fit: cover;
-    width: 330px;
+    width: 280px;
     height: 250px;
     
 }

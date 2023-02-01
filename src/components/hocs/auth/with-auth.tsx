@@ -3,7 +3,7 @@
 /* file name is conflicting with other rule */
 
 import { useRouter } from "next/router";
-import { useSession } from "@roq/ui-react";
+import { useSession } from "@roq/nextjs";
 
 import React, { ComponentType, useEffect, useMemo } from "react";
 import AppLoader from "components/loader";
@@ -29,7 +29,7 @@ export function withAuth<P extends object>({
       const shouldRedirect = useMemo(
         // we need both access token and user to consider current session as authenticated
         () =>
-          !isLoading &&
+          (!isLoading || session === undefined) &&
           Boolean(redirectIfAuthenticated) === Boolean(session?.id),
         [isLoading, session]
       );

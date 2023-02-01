@@ -26,21 +26,24 @@ export default function Posts() {
   };
 
   return (
-    <div>
+    <div className={styles.feed}>
       <h1 className={styles.title}>Your Feed</h1>
 
-      {creating || !data?.posts?.length ? (
-        <Card style={{ marginBottom: 10 }}>
-          <CreatePost onSuccess={handlePostCreateSuccess} />
-        </Card>
-      ) : (
-        <button onClick={() => setCreating(true)} className="btn">
-          Create a Post
-        </button>
-      )}
+      <div className={styles.createPostContainer}>
+        {creating || !data?.posts?.length ? (
+          <Card style={{ marginBottom: 10 }}>
+            <CreatePost onSuccess={handlePostCreateSuccess} />
+          </Card>
+        ) : (
+          <button onClick={() => setCreating(true)} className="btn">
+            Create a Post
+          </button>
+        )}
+      </div>
 
-      {isLoading ? <Loader /> : <></>}
       <div className={styles.listContainer}>
+        {isLoading ? <Loader /> : <></>}
+
         {data?.posts?.map((p) => (
           <PostItem post={p} key={p.id} />
         ))}
