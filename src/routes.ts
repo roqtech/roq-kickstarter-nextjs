@@ -1,5 +1,6 @@
 export const routes = {
   frontend: {
+    chat: "/chat",
     dashboard: "/dashboard",
     invites: "/invites",
     login: "/login",

@@ -4,7 +4,7 @@ import styles from "components/file/files.module.css";
 import FileCard from "components/file/file-card";
 import Loader from "components/loader";
 import { FilesFetchResponse } from "components/file/types";
-import Card from "components/card/card";
+import Card from "components/card";
 import UploadFile from "components/file/upload-file";
 
 export default function Files() {
@@ -20,20 +20,24 @@ export default function Files() {
     mutate();
   };
 
+  const handleDelete = () => {
+    mutate();
+  };
+
   return (
     <div className={styles.feed}>
-      <h1 className={styles.title}>Your Feed</h1>
+      <h1 className={styles.title}>Recent Files</h1>
 
       <div className={styles.uploadContainer}>
         <Card>
-          <UploadFile onSuccess={handleCreateSuccess} />
+          <UploadFile onSuccess={handleCreateSuccess} onDelete={handleDelete} />
         </Card>
       </div>
 
       <div className={styles.listContainer}>
         {isLoading ? <Loader /> : <></>}
 
-        {data?.files?.data?.map((f) => (
+        {data?.files?.map((f) => (
           <FileCard file={f} key={f.id} />
         ))}
 

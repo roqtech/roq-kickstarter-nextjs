@@ -1,42 +1,60 @@
-.postCard {
+.card {
     width: 300px;
     padding: 10px!important;
     height: 400px;
 }
 
-.postContent {
+.content {
     display: flex;
     flex-direction: column;    
 }
 
-.postImgContainer {
-    margin-right: 20px;
+.imgContainer {
+    margin-bottom: 10px;
     border-radius: 16px;
     width: 280px;
     background-color: rgba(var(--light-grey-rgb),.3);
     overflow: hidden;
 }
 
-.postImg {
+.img {
     object-fit: cover;
     width: 280px;
     height: 250px;
     
 }
 
-.postText {
-    height: 85px;
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.avatar {
+    background-color: rgba(var(--light-grey-rgb),.6);
+    color: #FFFFFF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+}
+
+.filename {
+    height: 30px;
     padding: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
 }
 
 .timestamp {
-    margin-top: 10px;
-    display: flex;
-    justify-content: flex-end;
+    font-size: 12px;
+    display: block;
     color: rgb(var(--light-grey-rgb));
 }

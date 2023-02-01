@@ -13,14 +13,17 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { limit, offset } = req.query as FilesFetchDto;
   const session = getServerSession(req, res);
 
-  const filesResult = await FileService.getFiles(
-    session.roqUserId,
-    FileCategories.userFiles,
-    limit,
-    offset
-  );
-
-  res.status(200).json(filesResult);
+  try {
+    const files = await FileService.getFilesForFeed(
+      session.roqUserId,
+      FileCategories.userFiles,
+      limit,
+      offset
+    );
+    res.status(200).json(files);
+  } catch (e) {
+    res.status(200).json({ files: [], totalCount: 0 });
+  }
 }
 
 export default function (req: NextApiRequest, res: NextApiResponse) {

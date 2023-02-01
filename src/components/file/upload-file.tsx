@@ -1,12 +1,18 @@
+/*
+  This component showcases the ROQ File upload feature in the controlled mode
+  i.e You can manually preview and trigger the upload of the file after it is selected
+*/
+
 import React, { useState } from "react";
 import styles from "components/file/upload-file.module.css";
 import { useRoqFileUploader, FileUpload } from "@roq/nextjs";
 
 interface UploadFileProps {
   onSuccess?: (file: File) => void;
+  onDelete?: (id: string) => void;
 }
 
-export default function UploadFile({ onSuccess }: UploadFileProps) {
+export default function UploadFile({ onSuccess, onDelete }: UploadFileProps) {
   const [newFile, setNewFile] = useState<File>();
 
   // To control the file upload - i.e trigger the upload when required,
@@ -14,6 +20,7 @@ export default function UploadFile({ onSuccess }: UploadFileProps) {
   const fileUploader = useRoqFileUploader({
     onUploadSuccess: (file) => {
       onSuccess?.(file);
+      setNewFile(undefined);
     },
     onUploadFail: (err) => {
       console.error(err);
@@ -22,6 +29,7 @@ export default function UploadFile({ onSuccess }: UploadFileProps) {
       setNewFile(file);
     },
     fileCategory: "USER_FILES",
+    onUploadRemoved: onDelete,
   });
 
   // Trigger the upload manually, by calling the uploadFile function

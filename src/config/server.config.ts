@@ -1,7 +1,6 @@
 import * as yup from "yup";
 
 export interface ServerConfigInterface {
-  databaseUrl: string;
   roq: {
     baseURL: string;
     clientId: string;
@@ -21,11 +20,6 @@ let serverConfig: ServerConfigInterface;
 if (typeof window === "undefined") {
   // will be cut out by webpack on client side
   serverConfig = Object.freeze({
-    databaseUrl: yup
-      .string()
-      .required()
-      .default("postgresql://roqdev:roqdev@localhost:5436/roqkickstarter")
-      .validateSync(process.env.DATABASE_URL),
     roq: {
       baseURL: yup
         .string()

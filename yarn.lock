@@ -598,30 +598,13 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@prisma/client@^4.8.0":
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-4.8.1.tgz#51c16488dfac4e74a275a2753bf20262a65f2a2b"
-  integrity sha512-d4xhZhETmeXK/yZ7K0KcVOzEfI5YKGGEr4F5SBV04/MU4ncN/HcE28sy3e4Yt8UFW0ZuImKFQJE+9rWt9WbGSQ==
-  dependencies:
-    "@prisma/engines-version" "4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe"
-
-"@prisma/engines-version@4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe":
-  version "4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe"
-  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe.tgz#30401aba1029e7d32e3cb717e705a7c92ccc211e"
-  integrity sha512-MHSOSexomRMom8QN4t7bu87wPPD+pa+hW9+71JnVcF3DqyyO/ycCLhRL1we3EojRpZxKvuyGho2REQsMCvxcJw==
-
-"@prisma/engines@4.8.1":
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-4.8.1.tgz#8428f7dcd7912c6073024511376595017630dc85"
-  integrity sha512-93tctjNXcIS+i/e552IO6tqw17sX8liivv8WX9lDMCpEEe3ci+nT9F+1oHtAafqruXLepKF80i/D20Mm+ESlOw==
-
-"@roq/nextjs@^0.1.41":
-  version "0.1.41"
-  resolved "https://registry.yarnpkg.com/@roq/nextjs/-/nextjs-0.1.41.tgz#6fddbcb44a79f6599179129cc3269e9edac6f918"
-  integrity sha512-4ZC44dSKblQhZuJG7+jXCjulyBPmGzRHNptjenMXfFlJZvd6Mf9j8pMiTnmelhSL2LJ6ZRLXLJtRJukgrR4K+g==
+"@roq/nextjs@^0.1.43":
+  version "0.1.43"
+  resolved "https://registry.yarnpkg.com/@roq/nextjs/-/nextjs-0.1.43.tgz#1653bafc4b6ee2598a6a349d01730a16aba69b18"
+  integrity sha512-pOKnlN084tugIqEyPlPa62yzUO8P374/FP2JkQOKHEumNlA9WZ28IdqxaPxvWzw9xpjCTLpZqMzkxdcYrpB8JQ==
   dependencies:
     "@roq/nodejs" "^0.1.9"
-    "@roq/ui-react" "^0.1.23"
+    "@roq/ui-react" "^0.1.24"
     cookie "^0.5.0"
     next "^13.1.5"
     node-fetch "^3.3.0"
@@ -643,7 +626,7 @@
     node-cache "^5.1.2"
     node-fetch "^2.6.7"
 
-"@roq/ui-react@^0.1.23":
+"@roq/ui-react@^0.1.24":
   version "0.1.24"
   resolved "https://registry.yarnpkg.com/@roq/ui-react/-/ui-react-0.1.24.tgz#90e55c12774499a6058c6377f33df0276efe167c"
   integrity sha512-cgTpM92pXx+jb375FkoT1M3K1H73f/BllQAYMdYi9TBpPP4glxk5Ij6wd/ssDzyWz/GeJjU64uk0Ik/g5IXHsA==
@@ -819,11 +802,6 @@
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.6.tgz#250a7b16c3b91f672a24552ec64678eeb1d3a08d"
   integrity sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==
-
-"@types/uuid@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-9.0.0.tgz#53ef263e5239728b56096b0a869595135b7952d2"
-  integrity sha512-kr90f+ERiQtKWMz5rP32ltJ/BtULDI5RVO0uavn1HQUOwjx0R1h0rnDYNL0CepF1zL5bSY6FISAfd9tOdDhU5Q==
 
 "@typescript-eslint/parser@^5.42.0":
   version "5.48.1"
@@ -4069,13 +4047,6 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
-
-prisma@^4.8.0:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-4.8.1.tgz#ef93cd908809b7d02e9f4bead5eea7733ba50c68"
-  integrity sha512-ZMLnSjwulIeYfaU1O6/LF6PEJzxN5par5weykxMykS9Z6ara/j76JH3Yo2AH3bgJbPN4Z6NeCK9s5fDkzf33cg==
-  dependencies:
-    "@prisma/engines" "4.8.1"
 
 prismjs@^1.27.0:
   version "1.29.0"

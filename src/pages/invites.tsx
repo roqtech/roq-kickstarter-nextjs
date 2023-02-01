@@ -6,7 +6,7 @@ import { routes } from "routes";
 function InvitesPage() {
   return (
     <AppLayout>
-      <UserInvitesTable />
+      <UserInvitesTable style={{ background: "#FFF" }} />
     </AppLayout>
   );
 }

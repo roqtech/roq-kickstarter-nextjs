@@ -1,3 +1,7 @@
+/*
+  This component showcases the NotificationBell, and ChatMessageBell from ROQ 
+*/
+
 import Head from "next/head";
 import styles from "layout/app/app.layout.module.css";
 import Image from "next/image";
@@ -16,11 +20,8 @@ export default function AppLayout({ children }: AppLayoutProps) {
   return (
     <>
       <Head>
-        <title>ROQ Next.js Prisma SaaS Template</title>
-        <meta
-          name="description"
-          content="ROQ starter kit with Next.js, Prisma, and PSQL"
-        />
+        <title>ROQ Next.js SaaS Template</title>
+        <meta name="description" content="ROQ boilerplate with Next.js" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -31,20 +32,23 @@ export default function AppLayout({ children }: AppLayoutProps) {
               className={styles.logo}
               src="/roq.svg"
               alt="ROQ Logo"
-              width={90}
+              width={80}
               height={80}
               priority
             />
           </Link>
-          <div className={styles.bellContainer}>
-            {/* <Link href={routes.frontend.invites}>Invite users</Link> */}
+          <div className={styles.linksContainer}>
+            <Link href={routes.frontend.invites}>Invites</Link>
+
+            {/* ROQ Notification and Chat bell */}
             <NotificationBell />
-            <ChatMessageBell onClick={() => router.push("/chat")} />
-            <div className={styles.logout}>
-              <button onClick={() => signOut()} className="btn btn-sm">
-                Logout
-              </button>
-            </div>
+            <ChatMessageBell
+              onClick={() => router.push(routes.frontend.chat)}
+            />
+
+            <button onClick={() => signOut()} className="btn btn-sm">
+              Logout
+            </button>
           </div>
         </div>
         <div className={styles.content}>{children}</div>
