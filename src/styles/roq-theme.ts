@@ -1,4 +1,4 @@
-import { createCustomTheme } from "@roq/ui-react";
+import { createCustomTheme } from "@roq/nextjs";
 
 export const roqThemeLight = createCustomTheme({
   name: "ROQ Custom Theme",

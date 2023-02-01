@@ -3,7 +3,7 @@
 /* file name is conflicting with other rule */
 
 import { useRouter } from "next/router";
-import { useSession } from "@roq/nextjs";
+import { useSession } from "@roq/ui-react";
 
 import React, { ComponentType, useEffect, useMemo } from "react";
 import AppLoader from "components/loader";

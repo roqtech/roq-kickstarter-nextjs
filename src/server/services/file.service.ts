@@ -10,9 +10,9 @@ export class FileService {
     console.log({ currentUserId, category, limit, offset });
 
     return roqClient.asUser(currentUserId).files({
-      //   filter: { fileCategory: { equalTo: category } },
-      //   limit,
-      //   offset,
+      filter: { fileCategory: { equalTo: category } },
+      limit,
+      offset,
     });
   }
 }

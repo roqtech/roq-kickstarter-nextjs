@@ -615,10 +615,8 @@
   resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-4.8.1.tgz#8428f7dcd7912c6073024511376595017630dc85"
   integrity sha512-93tctjNXcIS+i/e552IO6tqw17sX8liivv8WX9lDMCpEEe3ci+nT9F+1oHtAafqruXLepKF80i/D20Mm+ESlOw==
 
-"@roq/nextjs@0.1.35":
-  version "0.1.35"
-  resolved "https://registry.yarnpkg.com/@roq/nextjs/-/nextjs-0.1.35.tgz#60169bfedcb5e86212726fc5b58818320692df06"
-  integrity sha512-N7PeO5JzYeLO6eH1aNC1M/e1Sm59evl47nmAt3qAPmB7caVkXEnmTjuCIcwdj6jOsP9Eypjj+SwHpD8g/+qsOw==
+"@roq/nextjs@../../sdks/roq-nextjs":
+  version "0.1.39"
   dependencies:
     cookie "^0.5.0"
     next "^13.1.5"

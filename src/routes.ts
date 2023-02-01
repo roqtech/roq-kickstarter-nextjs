@@ -5,7 +5,6 @@ export const routes = {
     login: "/login",
   },
   server: {
-    post: "/api/post",
-    posts: "/api/posts",
+    files: "/api/files",
   },
 };
