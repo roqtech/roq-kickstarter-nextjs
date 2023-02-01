@@ -2,20 +2,14 @@
 
 This is a [ROQ](https://roq.tech) project showcasing how to use ROQ UI widgets and backend APIs with a combination of these technologies
 
-- [ROQ React Components](https://www.npmjs.com/package/@roq/ui-react)
-- [ROQ Node.js SDK](https://www.npmjs.com/package/@roq/nodejs)
-- [Next.js](https://nextjs.org), bootstrapped with `create-next-app`
-- [Prisma ORM](https://www.prisma.io) with Postgres
+- [ROQ Next.js](https://www.npmjs.com/package/@roq/nextjs) - a fullstack package for using ROQ UI, and backend SDKs with Next.js
+- [ROQ React Components](https://www.npmjs.com/package/@roq/ui-react) (bundled into @roq/nextjs)
+- [ROQ Node.js SDK](https://www.npmjs.com/package/@roq/nodejs) (bundled into @roq/nextjs)
+- [Next.js](https://nextjs.org), bootstrapped with `create-next-app
 
 ## Get started
 
-Step 1 - You need a running Postgres instance. You may start it up by just running
-
-```bash
-docker-compose up
-```
-
-Step 2 - Setup your ROQ environment variables. Check the example .env.example file
+Step 1 - Setup your ROQ environment variables. Check the example .env.example file
 You can get the environment variables from the [ROQ Console](https://console.roq.tech)
 
 ```bash
@@ -23,19 +17,17 @@ cp .env.example .env
 # Get the variables from the ROQ console, and replace the values
 ```
 
-Step 3 - You can then install, run migrations, and start up your application
+Step 2 - You can then install, and start up your application
 
 ```bash
 # With Yarn
 yarn
-npx prisma migrate dev
 yarn dev
 
 or
 
 # With npm
 npm install
-npx prisma migrate dev
 npm run dev
 ```
 
