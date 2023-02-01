@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "layout/app/app.layout.module.css";
 import Image from "next/image";
-import { NotificationBell, ChatMessageBell, signOut } from "@roq/ui-react";
+import { NotificationBell, ChatMessageBell, signOut } from "@roq/nextjs";
 import { useRouter } from "next/router";
 import { routes } from "routes";
 

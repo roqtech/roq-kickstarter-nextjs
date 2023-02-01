@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "components/file/upload-file.module.css";
-import { useRoqFileUploader, FileUpload } from "@roq/ui-react";
+import { useRoqFileUploader, FileUpload } from "@roq/nextjs";
 
 interface UploadFileProps {
   onSuccess?: (file: File) => void;
@@ -42,11 +42,11 @@ export default function UploadFile({ onSuccess }: UploadFileProps) {
       />
 
       {/* Images can be previewed using the previews property of the file uploader object */}
-      <img
-        className={styles.preview}
-        width={"100%"}
-        src={fileUploader.previews?.[0]?.url}
-      />
+      {newFile ? (
+        <img className={styles.preview} src={fileUploader.previews?.[0]?.url} />
+      ) : (
+        <></>
+      )}
 
       {newFile ? (
         <button disabled={!newFile} className="btn" onClick={handleUpload}>

@@ -1,6 +1,6 @@
 import AppLayout from "layout/app/app.layout";
 import { withAuth } from "components/hocs/auth/with-auth";
-import { UserInvitesTable } from "@roq/ui-react";
+import { UserInvitesTable } from "@roq/nextjs";
 import { routes } from "routes";
 
 function InvitesPage() {

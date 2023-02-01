@@ -24,9 +24,11 @@ export default function Files() {
     <div className={styles.feed}>
       <h1 className={styles.title}>Your Feed</h1>
 
-      <Card style={{ marginBottom: 10, maxWidth: "100%" }}>
-        <UploadFile onSuccess={handleCreateSuccess} />
-      </Card>
+      <div className={styles.uploadContainer}>
+        <Card>
+          <UploadFile onSuccess={handleCreateSuccess} />
+        </Card>
+      </div>
 
       <div className={styles.listContainer}>
         {isLoading ? <Loader /> : <></>}

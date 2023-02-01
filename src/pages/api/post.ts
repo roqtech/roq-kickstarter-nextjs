@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { withAuth, getServerSession } from "@roq/ui-react";
+import { withAuth, getServerSession } from "@roq/nextjs";
 import { CreatePostDto } from "server/dtos/create-post.dto";
 import { PostService } from "server/services/post.service";
 

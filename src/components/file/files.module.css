@@ -6,10 +6,10 @@
     margin-bottom: 30px;
 }
 
-.createPostContainer {
+.uploadContainer {
     width: 100%;
-    max-width: 500px;
-
+    max-width: 600px;
+    margin-bottom: 20px;
 }
 
 .listContainer {

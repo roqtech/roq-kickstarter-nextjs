@@ -11,7 +11,6 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
   }
 
   const { limit, offset } = req.query as FilesQueryDto;
-  console.log({ limit, offset });
   const session = getServerSession(req, res);
 
   const filesResult = await FileService.getFiles(
