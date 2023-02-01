@@ -23,27 +23,30 @@ if (typeof window === "undefined") {
     roq: {
       baseURL: yup
         .string()
-        .required()
+        .required("ROQ_BASE_URL is a required variable")
         .default("http://localhost:3000")
         .validateSync(process.env.ROQ_BASE_URL),
-      clientId: yup.string().required().validateSync(process.env.ROQ_CLIENT_ID),
+      clientId: yup
+        .string()
+        .required("ROQ_CLIENT_ID is a required variable")
+        .validateSync(process.env.ROQ_CLIENT_ID),
       clientSecret: yup
         .string()
-        .required()
+        .required("ROQ_CLIENT_SECRETis a required variable")
         .validateSync(process.env.ROQ_CLIENT_SECRET),
       environmentId: yup
         .string()
-        .required()
+        .required("ROQ_ENVIRONMENT_ID a required variable")
         .validateSync(process.env.ROQ_ENVIRONMENT_ID),
       apiKey: yup.string().required().validateSync(process.env.ROQ_API_KEY),
       authSecret: yup
         .string()
-        .required()
+        .required("ROQ_SECRET is a required variable")
         .default("CHANGE_THIS_SECRET")
         .validateSync(process.env.ROQ_SECRET),
       platformURL: yup
         .string()
-        .required()
+        .required("ROQ_PLATFORM_URL is a required variable")
         .validateSync(process.env.ROQ_PLATFORM_URL),
       callbackURL: yup
         .string()
