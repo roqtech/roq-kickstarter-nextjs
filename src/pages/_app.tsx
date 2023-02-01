@@ -6,6 +6,9 @@ import "@roq/nextjs/index.css";
 import { roqThemeLight } from "styles/roq-theme";
 
 export default function App({ Component, pageProps }: AppProps) {
+  /*
+    The ROQ provider sets the context for inner ROQ components to consume variables such as the session
+  */
   return (
     <RoqProvider
       config={{
