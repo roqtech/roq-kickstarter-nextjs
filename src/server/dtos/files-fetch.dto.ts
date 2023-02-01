@@ -1,4 +1,4 @@
-export interface PostsQueryDto {
+export interface FilesFetchDto {
   limit?: number;
   offset?: number;
 }

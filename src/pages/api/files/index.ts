@@ -2,7 +2,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { withAuth, getServerSession } from "@roq/nextjs";
 import { FileService } from "server/services/file.service";
 import { FileCategories } from "server/enums";
-import { FilesQueryDto } from "server/dtos/files-query.dto";
+import { FilesFetchDto } from "server/dtos/files-fetch.dto";
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== "GET") {
@@ -10,7 +10,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     res.end();
   }
 
-  const { limit, offset } = req.query as FilesQueryDto;
+  const { limit, offset } = req.query as FilesFetchDto;
   const session = getServerSession(req, res);
 
   const filesResult = await FileService.getFiles(
