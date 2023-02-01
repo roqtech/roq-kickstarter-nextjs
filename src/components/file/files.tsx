@@ -26,7 +26,7 @@ export default function Files() {
 
   return (
     <div className={styles.feed}>
-      <h1 className={styles.title}>Recent Files</h1>
+      <h2 className={styles.title}>Recent files from users of this app</h2>
 
       <div className={styles.uploadContainer}>
         <Card>

@@ -18,7 +18,7 @@ export default function FileCard({ file }: { file: UserFile }) {
         <div className={styles.userInfo}>
           <div className={styles.avatar}>
             {userName.slice(0, 1) || ""}
-            {userName.slice(0, 1) || ""}
+            {userName.slice(-1) || ""}
           </div>
           <div>
             {userName}

@@ -33,7 +33,7 @@
 }
 
 .avatar {
-    background-color: rgba(var(--light-grey-rgb),.6);
+    background-color: rgb(var(--light-grey-rgb));
     color: #FFFFFF;
     border-radius: 50%;
     width: 40px;
