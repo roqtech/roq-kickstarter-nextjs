@@ -598,13 +598,13 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@roq/nextjs@^0.1.43":
-  version "0.1.43"
-  resolved "https://registry.yarnpkg.com/@roq/nextjs/-/nextjs-0.1.43.tgz#1653bafc4b6ee2598a6a349d01730a16aba69b18"
-  integrity sha512-pOKnlN084tugIqEyPlPa62yzUO8P374/FP2JkQOKHEumNlA9WZ28IdqxaPxvWzw9xpjCTLpZqMzkxdcYrpB8JQ==
+"@roq/nextjs@^0.1.45":
+  version "0.1.45"
+  resolved "https://registry.yarnpkg.com/@roq/nextjs/-/nextjs-0.1.45.tgz#97d55cc3528bdbeaf041dafa3f2fac9fa7f6ba54"
+  integrity sha512-KkASVU5FxLnS4KGJ0qkJB4KUIAcS9tUUI1Wgh507ZDpfFoH10X194WwbmcMg0yZ0wZZlWqSRjKTKKceQ6SC9Hg==
   dependencies:
     "@roq/nodejs" "^0.1.9"
-    "@roq/ui-react" "^0.1.24"
+    "@roq/ui-react" "^0.1.26"
     cookie "^0.5.0"
     next "^13.1.5"
     node-fetch "^3.3.0"
@@ -626,10 +626,10 @@
     node-cache "^5.1.2"
     node-fetch "^2.6.7"
 
-"@roq/ui-react@^0.1.24":
-  version "0.1.24"
-  resolved "https://registry.yarnpkg.com/@roq/ui-react/-/ui-react-0.1.24.tgz#90e55c12774499a6058c6377f33df0276efe167c"
-  integrity sha512-cgTpM92pXx+jb375FkoT1M3K1H73f/BllQAYMdYi9TBpPP4glxk5Ij6wd/ssDzyWz/GeJjU64uk0Ik/g5IXHsA==
+"@roq/ui-react@^0.1.26":
+  version "0.1.26"
+  resolved "https://registry.yarnpkg.com/@roq/ui-react/-/ui-react-0.1.26.tgz#3d195f0cc93bd912f433010374a651594933c8be"
+  integrity sha512-8WeBil60+Hg9GCM1lbaLmAz92uJAFpL1aq9qn5yDPLZyMH447jhCb6XxGN/cgWzRwYHPlTREsNQppjKZt7p/IA==
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.0.1"

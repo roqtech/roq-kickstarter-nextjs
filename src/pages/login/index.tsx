@@ -1,4 +1,4 @@
-import { signIn } from "@roq/nextjs";
+import { signIn, signUp } from "@roq/nextjs";
 import Image from "next/image";
 import styles from "pages/login/login.module.css";
 import AuthLayout from "layout/auth/auth.layout";
@@ -16,10 +16,7 @@ const LoginPage = function () {
           height={200}
           priority
         />
-        <button
-          className="btn btn-block"
-          onClick={() => (window.location.href = "/api/auth/signup")}
-        >
+        <button className="btn btn-block" onClick={signUp}>
           Register
         </button>
         <div onClick={signIn}>
