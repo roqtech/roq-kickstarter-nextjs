@@ -47,15 +47,21 @@ export default function UploadFile({ onSuccess, onDelete }: UploadFileProps) {
         fileUploader={fileUploader}
         accept={["image/*"]}
         fileCategory="USER_FILES"
-      />
-
+      />{" "}
+      {!newFile ? (
+        <h4 className={styles.prompt}>
+          👆 This is a ROQ FileUpload Component. Click it to pick & preview an
+          image
+        </h4>
+      ) : (
+        <></>
+      )}
       {/* Images can be previewed using the previews property of the file uploader object */}
       {newFile ? (
         <img className={styles.preview} src={fileUploader.previews?.[0]?.url} />
       ) : (
         <></>
       )}
-
       {newFile ? (
         <button disabled={!newFile} className="btn" onClick={handleUpload}>
           Start upload
