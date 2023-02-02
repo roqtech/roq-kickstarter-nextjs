@@ -51,7 +51,7 @@ export default function UploadFile({ onSuccess, onDelete }: UploadFileProps) {
       {!newFile ? (
         <div className={styles.prompt}>
           👆 This is a ROQ <strong>{`  <FileUpload />  `}</strong> Component.
-          Use it to pick & preview an image. The upload is triggered from the
+          Use it to pick and preview an image. The upload is triggered from the
           parent component
         </div>
       ) : (
