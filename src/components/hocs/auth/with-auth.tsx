@@ -1,7 +1,3 @@
-/* eslint-disable @roq/no-eslint-disable */
-/* eslint-disable @roq/name-of-class-and-function-rule */
-/* file name is conflicting with other rule */
-
 import { useRouter } from "next/router";
 import { useSession } from "@roq/nextjs";
 
