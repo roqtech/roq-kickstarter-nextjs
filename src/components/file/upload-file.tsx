@@ -49,10 +49,10 @@ export default function UploadFile({ onSuccess, onDelete }: UploadFileProps) {
         fileCategory="USER_FILES"
       />{" "}
       {!newFile ? (
-        <h4 className={styles.prompt}>
-          👆 This is a ROQ FileUpload Component. Click it to pick & preview an
-          image
-        </h4>
+        <div className={styles.prompt}>
+          👆 This is a ROQ {`  <FileUpload />  `} Component. Click it to pick &
+          preview an image
+        </div>
       ) : (
         <></>
       )}
