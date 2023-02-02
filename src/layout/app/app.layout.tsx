@@ -20,8 +20,8 @@ export default function AppLayout({ children }: AppLayoutProps) {
   return (
     <>
       <Head>
-        <title>ROQ Next.js SaaS Template</title>
-        <meta name="description" content="ROQ boilerplate with Next.js" />
+        <title>ROQ Next.js Kickstarter</title>
+        <meta name="description" content="ROQ Kickstarter with Next.js" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -26,6 +26,9 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
   }
 }
 
-export default function (req: NextApiRequest, res: NextApiResponse) {
+export default function filesHandler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
   return withAuth(req, res)(handler);
 }
