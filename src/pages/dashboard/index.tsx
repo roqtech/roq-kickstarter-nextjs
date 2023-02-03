@@ -1,11 +1,12 @@
 import AppLayout from "layout/app/app.layout";
 import Files from "components/file/files";
-import { withAuth } from "components/hocs/auth/with-auth";
 import styles from "pages/dashboard/dashboard.module.css";
+import { withNextAuth } from "@roq/nextjs";
 
-function DashboardPage() {
+function DashboardPage(props: unknown) {
   return (
     <AppLayout>
+      <code>{JSON.stringify(props)}</code>
       <div className={styles.container}>
         <Files />
       </div>
@@ -13,7 +14,7 @@ function DashboardPage() {
   );
 }
 
-export default withAuth({
+export default withNextAuth({
   redirectIfAuthenticated: false,
   redirectTo: "/login",
 })(DashboardPage);

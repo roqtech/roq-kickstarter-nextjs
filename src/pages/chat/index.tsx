@@ -1,7 +1,6 @@
-import { Chat } from "@roq/nextjs";
+import { Chat, withNextAuth } from "@roq/nextjs";
 import { useRouter } from "next/router";
 import AppLayout from "layout/app/app.layout";
-import { withAuth } from "components/hocs/auth/with-auth";
 import { routes } from "routes";
 
 function ChatPage() {
@@ -14,7 +13,7 @@ function ChatPage() {
   );
 }
 
-export default withAuth({
+export default withNextAuth({
   redirectIfAuthenticated: false,
   redirectTo: routes.frontend.login,
 })(ChatPage);
