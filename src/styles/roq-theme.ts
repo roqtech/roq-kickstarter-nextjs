@@ -3,8 +3,8 @@ import { createCustomTheme } from "@roq/nextjs";
 export const roqThemeLight = createCustomTheme({
   name: "ROQ Custom Theme",
   base: {
-    primary: "#A07EFF",
-    secondary: "#CA58FF",
+    primary: "#207be5",
+    secondary: "#1f2b48",
   },
   spacing: {
     borderRadius: "16px",
