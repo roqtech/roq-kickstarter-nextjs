@@ -1,4 +1,4 @@
-import { signIn, signUp, withNextAuth } from "@roq/nextjs";
+import { signIn, signUp, requireNextAuth } from "@roq/nextjs";
 import Image from "next/image";
 import styles from "pages/login/login.module.css";
 import AuthLayout from "layout/auth/auth.layout";
@@ -36,6 +36,6 @@ const LoginPage = function () {
   );
 };
 
-export default withNextAuth({ redirectIfAuthenticated: true, redirectTo: "/" })(
+export default requireNextAuth({ redirectIfAuthenticated: true, redirectTo: "/" })(
   LoginPage
 );

@@ -1,5 +1,5 @@
 import AppLayout from "layout/app/app.layout";
-import { UserInvitesTable, withNextAuth } from "@roq/nextjs";
+import { UserInvitesTable, requireNextAuth } from "@roq/nextjs";
 import { routes } from "routes";
 
 function InvitesPage() {
@@ -10,7 +10,7 @@ function InvitesPage() {
   );
 }
 
-export default withNextAuth({
+export default requireNextAuth({
   redirectIfAuthenticated: false,
   redirectTo: routes.frontend.login,
 })(InvitesPage);
