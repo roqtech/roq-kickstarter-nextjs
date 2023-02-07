@@ -1,0 +1,12 @@
+.customChat {
+  min-height: 1px;
+  height: 100%;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  flex-basis: 420px;
+  flex-shrink: 0;
+}
