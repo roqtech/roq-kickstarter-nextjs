@@ -521,13 +521,13 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@roq/nextjs@0.1.46-a16":
-  version "0.1.46-a16"
-  resolved "https://registry.yarnpkg.com/@roq/nextjs/-/nextjs-0.1.46-a16.tgz#76ba94fbf2c4b800fed5e364c5b8d3a32c61b467"
-  integrity sha512-m7zHeYpIhfi5y0vwtV3M4MTbec1F6ql8H3iKQjzkPLHPR73fWSWnZAARw4zBPNP1u5yc19uOyPZ+LWdbVnGILQ==
+"@roq/nextjs@0.1.48-rc2":
+  version "0.1.48-rc2"
+  resolved "https://registry.yarnpkg.com/@roq/nextjs/-/nextjs-0.1.48-rc2.tgz#253b40838898cbc5c60314d80bf6d3f79a6a6b03"
+  integrity sha512-LwR3ksZeZ3gAoPQhsunjAtQUrEvexEB/LBNyGMvQZqCwdYQ+G3YiuHTcvSxudCimehMj+wcLhTA+MU6znqwLaA==
   dependencies:
     "@roq/nodejs" "^0.1.9"
-    "@roq/ui-react" "^0.2.0-rc1"
+    "@roq/ui-react" "0.2.0-rc2"
     cookie "^0.5.0"
     lodash.isempty "^4.4.0"
     node-fetch "^3.3.0"
@@ -550,10 +550,10 @@
     node-cache "^5.1.2"
     node-fetch "^2.6.7"
 
-"@roq/ui-react@^0.2.0-rc1":
-  version "0.2.0-rc1"
-  resolved "https://registry.yarnpkg.com/@roq/ui-react/-/ui-react-0.2.0-rc1.tgz#f40b7da19725cfbcb77ae99f14d770d9a56470af"
-  integrity sha512-uJ6rkkmPnDRkul3pL6R2Ic5u1aGqYTwVygPCrEuuOZHEZAUvjn0PCnvxVrbSkAitJj93gC2dpG3keNJpxAhAxw==
+"@roq/ui-react@0.2.0-rc2":
+  version "0.2.0-rc2"
+  resolved "https://registry.yarnpkg.com/@roq/ui-react/-/ui-react-0.2.0-rc2.tgz#dba04c78884df9273a9a76fa028c897c52bbf731"
+  integrity sha512-wOq1VYMCkes1kMguIEwUUr1AKaKvDW1s1jvGue6HvOD1izlMHGtrck1yvbOUAeZGi0fn8sZpDInVMCwOVwZZBg==
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
@@ -3863,6 +3863,7 @@ parse5@^6.0.0:
   integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
 
 path-browserify@^1.0.1, "path@npm:path-browserify":
+  name path
   version "1.0.1"
   resolved "https://registry.npmjs.org/path-browserify/-/path-browserify-1.0.1.tgz"
   integrity sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==
@@ -4597,6 +4598,7 @@ stacktrace-js@^2.0.2:
     stacktrace-gps "^3.0.4"
 
 stream-browserify@^3.0.0, "stream@npm:stream-browserify":
+  name stream
   version "3.0.0"
   resolved "https://registry.npmjs.org/stream-browserify/-/stream-browserify-3.0.0.tgz"
   integrity sha512-H73RAHsVBapbim0tU2JwwOiXUj+fikfiaoYAKHF3VJfA0pe2BCzkhAHBlLG6REzE+2WNZcxOXjK7lkso+9euLA==
