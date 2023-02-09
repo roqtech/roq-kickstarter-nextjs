@@ -1,8 +1,7 @@
-import { signIn, signUp } from "@roq/nextjs";
+import { signIn, signUp, requireNextAuth } from "@roq/nextjs";
 import Image from "next/image";
 import styles from "pages/login/login.module.css";
 import AuthLayout from "layout/auth/auth.layout";
-import { withAuth } from "components/hocs/auth/with-auth";
 
 const LoginPage = function () {
   return (
@@ -37,6 +36,7 @@ const LoginPage = function () {
   );
 };
 
-export default withAuth({ redirectIfAuthenticated: true, redirectTo: "/" })(
-  LoginPage
-);
+export default requireNextAuth({
+  redirectIfAuthenticated: true,
+  redirectTo: "/",
+})(LoginPage);
