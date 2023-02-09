@@ -7,11 +7,11 @@ function PublicPage() {
   return (
     <AppLayout>
       <p>
-        This is public page! Accessible by everyone.
-        If you have a don't have session, you still have an access to it.
+        {'This is public page! Accessible by everyone.'}
+        {"If you have a don't have session, you still have an access to it."}
       </p>
       <p>
-        If you don't have the session, ROQ Components should be disbled (in the error state).
+        {"If you don't have the session, ROQ Components should be disbled (in the error state)."}
       </p>
       <code>
         {JSON.stringify({ session })}
