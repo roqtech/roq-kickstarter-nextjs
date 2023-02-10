@@ -32,9 +32,9 @@ export function withAuth<P extends object>({
       useEffect(() => {
         // redirect only after first session load
         if (redirect && shouldRedirect && redirectTo) {
-          void router.replace(redirectTo);
+          void router.replace(redirectTo, undefined, { locale: router.locale });
         }
-      }, [shouldRedirect]);
+      }, [shouldRedirect, router]);
 
       // only show loader when initializing session (first time)
       if (isLoading || shouldRedirect) {

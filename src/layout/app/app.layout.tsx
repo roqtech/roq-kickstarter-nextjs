@@ -10,6 +10,7 @@ import { useRouter } from "next/router";
 import { routes } from "routes";
 
 import Link from "next/link";
+import LocaleSwitcher from "components/locale/locale-switcher";
 
 interface AppLayoutProps {
   children: React.ReactNode;
@@ -39,7 +40,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
           </Link>
           <div className={styles.linksContainer}>
             <Link href={routes.frontend.invites}>Invites</Link>
-
+            <LocaleSwitcher />
             {/* ROQ Notification and Chat bell */}
             <NotificationBell />
             <ChatMessageBell

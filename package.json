@@ -6,19 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "translate": "(tsc src/scripts/*.ts --skipLibCheck --skipDefaultLibCheck --module commonjs --esModuleInterop --outDir dist --baseUrl ./src && NODE_PATH=dist/ TRANSLATION_LOAD_CHUNK_SIZE=100 node -r dotenv/config dist/scripts/load-translations.js) || exit 1"
   },
   "dependencies": {
     "@next/font": "13.1.1",
-    "@roq/nextjs": "^0.1.48",
+    "@roq/nextjs": "^0.1.50",
     "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.1",
+    "i18next": "^22.4.9",
     "javascript-time-ago": "^2.5.9",
     "jsonwebtoken": "^9.0.0",
     "next": "13.1.1",
+    "next-i18next": "^13.1.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-i18next": "^12.1.5",
     "swr": "^2.0.3",
     "typescript": "4.9.4",
     "yup": "^0.32.11"

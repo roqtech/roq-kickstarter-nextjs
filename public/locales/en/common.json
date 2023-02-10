@@ -1,0 +1,481 @@
+{
+  "files": {
+    "title": "Recent files from users of this app"
+  },
+  "roq-ui": {
+    "notification": {
+      "preference-test": "test"
+    },
+    "auth": {
+      "forget-password": {
+        "title": "Reset Password",
+        "button": {
+          "name": "Send"
+        },
+        "submit": {
+          "success": "Reset password email sent successfully",
+          "success-cta": "You should receive an email if your account exists in our system and is active"
+        },
+        "sub-title": "Enter your registered email below",
+        "link-text": {
+          "login": "Go back to <login>Login</login>"
+        }
+      },
+      "user-invites": {
+        "actions": {
+          "invite-users": "Invite Users",
+          "revoke": {
+            "title": "Revoke",
+            "confirmation": {
+              "title": "Revoke Invitation",
+              "confirm": "Revoke",
+              "cancel": "Cancel",
+              "message": "Are you sure you want to resend invitation to the following user"
+            }
+          },
+          "resend": {
+            "title": "Resend Invitation",
+            "confirmation": {
+              "confirm": "Resend",
+              "cancel": "Cancel",
+              "message": "Are you sure you want to resend invitation to the following user",
+              "title": "Resend Invitation"
+            }
+          }
+        },
+        "filter": {
+          "all": "All",
+          "accepted": "Accepted",
+          "pending": "Pending",
+          "canceled": "Cancelled",
+          "expired": "Expired"
+        },
+        "status": {
+          "accepted": "Accepted",
+          "pending": "Pending",
+          "canceled": "Cancelled",
+          "expired": "Expired"
+        },
+        "table": {
+          "columns": {
+            "email": "Email",
+            "status": "Status",
+            "date": "Date",
+            "role": "Role",
+            "actions": "Actions"
+          }
+        },
+        "title": "Invitations",
+        "subTitle": "Invite others to join your workspace"
+      },
+      "input": {
+        "company": {
+          "name": "Company",
+          "placeholder": "Enter your company"
+        },
+        "phone": {
+          "name": "Phone"
+        },
+        "position": {
+          "name": "Position"
+        },
+        "street_address": {
+          "name": "Street Address"
+        },
+        "zip_code": {
+          "name": "Zip Code"
+        },
+        "house_number": {
+          "name": "House Number"
+        },
+        "city": {
+          "name": "City"
+        },
+        "country": {
+          "name": "Country"
+        },
+        "email": {
+          "name": "Email",
+          "placeholder": "Enter your email",
+          "validation": {
+            "required": "E-Mail is a required field",
+            "type": "Must be a valid E-mail"
+          }
+        },
+        "password": {
+          "name": "Password",
+          "placeholder": "Enter your password",
+          "validation": {
+            "required": "Password is a required field",
+            "strength": "at least one letter, one number and one special character",
+            "char-limit": "Have between 8 and 64 characters",
+            "upper-char-required": "Contain at least 1 upper-case letter",
+            "number-required": "Contain at least 1 number",
+            "special-char-required": "Contain at least 1 special character"
+          }
+        },
+        "keepMeLoggedIn": "Keep me logged in",
+        "first-name": {
+          "placeholder": "Enter your first name",
+          "name": "First Name"
+        },
+        "last-name": {
+          "name": "Last Name",
+          "placeholder": "Enter your last name"
+        }
+      },
+      "register": {
+        "title": "Register",
+        "sub-title": "This is your first step with us. Let’s ROQ !",
+        "link-text": {
+          "terms-and-privacy": "By signing up, I agree to the <terms>Terms & Conditions</terms> and <privacy>Privacy Policy</privacy>",
+          "login": "Already have an account? <login>Login</login>"
+        },
+        "button": {
+          "name": "Create Account"
+        },
+        "your-password": {
+          "label": "Your password must"
+        },
+        "submit": {
+          "success": "Account created successfully"
+        },
+        "success": {
+          "resend-confirmation-email": "Confirmation email resent successfully"
+        }
+      },
+      "login": {
+        "title": "Login",
+        "sub-title": "Please enter your email and password to log in",
+        "button": {
+          "name": "Sign in"
+        },
+        "link-text": {
+          "register": "Don't have account? <register>Register</register>"
+        }
+      },
+      "forgot-password-cta": "Forgot password?",
+      "link-text": {
+        "terms": "Terms & Conditions",
+        "privacy": "Privacy Notice"
+      },
+      "error": {
+        "title": "Oops! Something went wrong.",
+        "redirect-uri-mismatch": "The provided redirect_uri is not in the list of allowed callback URLs.",
+        "error-page-message": "It looks like something went wrong on our end. We apologize for the inconvenience. Please try again later.",
+        "user-object-not-found": "User not found",
+        "user-incorrect-email-password": "The email/password you entered are not correct",
+        "user-not-activated": "User is not activated",
+        "invalid-token": "Provided token is wrong",
+        "invalid-auth-header": "Authorization header type is not supported",
+        "invalid-api-key": "Invalid api key",
+        "invalid-credentials": "Credentials are wrong",
+        "missing-auth": "Authorization header is not passed",
+        "unauthorized": "Unauthorized",
+        "unauthorized-exception": "{{message}}",
+        "user-not-found": "User with id {{id}} not found"
+      },
+      "reset-password": {
+        "button": {
+          "name": "Send"
+        },
+        "submit": {
+          "success": "Password updated successfully",
+          "success-cta": "Your password was reset. This page can now be closed"
+        }
+      },
+      "reset-password-subheading": "In order to reset your password, please provide registered email address and follow instructions.",
+      "confirm-registration": {
+        "title": "Confirm your email",
+        "sub-title": "We’ve sent you an email to <span>{{email}}</span>. Click on the link there to continue your registration.",
+        "resend-email": "Resend Email",
+        "did-not-receive-email": "Didn’t received an email?"
+      },
+      "activate-account": {
+        "title": "Confirm Account",
+        "sub-title": "Account confirmed successfully. This page can now be closed"
+      },
+      "accept-invite": {
+        "title": "Accept Invite",
+        "sub-title": "Please fill out the details to get started",
+        "submit": {
+          "success": "Invite accepted successfully",
+          "success-cta": "You are now set. This page can now be closed"
+        },
+        "button": {
+          "name": "Accept Invite"
+        }
+      },
+      "user-invite": {
+        "button": {
+          "add": {
+            "label": "Invite users"
+          }
+        },
+        "input": {
+          "emails": {
+            "label": "To:",
+            "placeholder": "Email, comma separated"
+          },
+          "roles": {
+            "label": "Invite as",
+            "placeholder": "Member"
+          }
+        },
+        "roles": {
+          "validation": {
+            "required": "Role is a required field"
+          }
+        },
+        "emails": {
+          "validation": {
+            "required": "Emails are a required field"
+          }
+        },
+        "success": {
+          "message": "Invitation sent successfully"
+        }
+      },
+      "redirect": {
+        "click-to-application-login": "Click <span>here</span> to login",
+        "auto-redirecting": "Redirecting you to login in 5 seconds",
+        "go-back-application-login": "Go back to the application to login"
+      }
+    },
+    "files": {
+      "file-active-uploads": {
+        "title": "Active Uploads"
+      },
+      "error": {
+        "file-status-update-failed": "Can't set the status '{{status}}' for already uploaded file",
+        "file-not-found": "File with id {{id}} not found",
+        "file-not-completely-uploaded-status-update-failed": "Can't set the status {{status}} for file that is not completely uploaded",
+        "file-association-not-found": "FileAssociation with id {{id}} not found",
+        "file-category-with-given-key-not-found": "FileCategory with key {{fileCategory}} not found",
+        "file-category-not-found": "FileCategory with id {{id}} not found",
+        "file-category-content-type-not-found": "FileCategoryContentType with id {{id}} not found",
+        "invalid-content-type-for-file-category": "File type {{extension}} is not a valid file type for {{fileCategoryName}}"
+      },
+      "file-status": {
+        "uploaded-successfully": "Uploaded Successfully",
+        "upload-cancelled": "Upload Cancelled",
+        "upload-failed": "Upload Failed"
+      },
+      "file-uploaded-panel": {
+        "title": "Active Uploads"
+      },
+      "file-change-visibility-public-confirmation": {
+        "title": "Make File Public",
+        "button": "Make Public",
+        "message": "Are you sure you want to make the following file public?"
+      },
+      "file-change-visibility-private-confirmation": {
+        "title": "Make File Private",
+        "button": "Make Private",
+        "message": "Are you sure you want to make the following file private?"
+      },
+      "file-upload": {
+        "title": "Files",
+        "message": "Drag Files here or use the",
+        "message-cta": "Upload File",
+        "message-suffix": "Button"
+      },
+      "file-upload-button": {
+        "label": "Upload File"
+      },
+      "file-edit-form": {
+        "label": {
+          "name": "Name",
+          "extension": "Extension"
+        },
+        "action": {
+          "make-public": "Make Public",
+          "make-private": "Make Private",
+          "copy-url": "Copy URL"
+        }
+      },
+      "file-edit-modal": {
+        "title": "Editing File",
+        "confirm": "Save",
+        "cancel": "Cancel"
+      },
+      "file-delete-modal": {
+        "title": "Delete File",
+        "confirm": "Delete",
+        "cancel": "Cancel",
+        "message": "Are you sure you want to delete the following file?"
+      }
+    },
+    "chat": {
+      "message-updated-status": {
+        "label": "Edited"
+      },
+      "message-forwarded-status": {
+        "label": "Forwarded"
+      },
+      "message-deleted-status": {
+        "label": "Message Deleted"
+      },
+      "error": {
+        "conversation-user-not-found": "ConversationUser with id {{id}} not found",
+        "conversation-not-found": "Conversation with id {{id}} not found",
+        "message-not-found": "Message with id {{id}} not found",
+        "message-status-not-found": "MessageStatus with id {{id}} not found"
+      },
+      "group": {
+        "title": "New group"
+      },
+      "one-to-one": {
+        "title": "Chat"
+      },
+      "conversation-list-sidebar": {
+        "title": "Messages",
+        "search": {
+          "placeholder": "Search or start new chat"
+        }
+      },
+      "create-conversation-sidebar": {
+        "title": "New Chat",
+        "search": {
+          "placeholder": "Search or start new chat"
+        }
+      },
+      "conversation-card": {
+        "form": {
+          "title": "Rename group",
+          "input": {
+            "placeholder": "Name"
+          }
+        }
+      },
+      "create-group-button": {
+        "label": "New Group"
+      },
+      "conversation-menu": {
+        "markRead": "Mark as read",
+        "markUnread": "Mark as unread",
+        "rename": "Rename group",
+        "archive": "Archive Group",
+        "invite": "Add Group Participants",
+        "remove": "Remove Group Participants",
+        "leave": "Leave Group"
+      },
+      "conversation-not-selected-panel": {
+        "description": "You have no messages right now."
+      },
+      "create-group-sidebar": {
+        "title": "New Group",
+        "search": {
+          "placeholder": "Search member to add to the group"
+        }
+      },
+      "forward-message-sidebar": {
+        "title": "Forward Message"
+      },
+      "invite-group-members-sidebar": {
+        "title": "Add Group Participants",
+        "search": {
+          "placeholder": "Search member"
+        }
+      },
+      "update-group-members-sidebar": {
+        "title": "Remove Group Participants",
+        "search": {
+          "placeholder": "Search member"
+        }
+      },
+      "message-menu": {
+        "edit": "Edit Message",
+        "delete": "Delete Message",
+        "reply": "Reply Message",
+        "forward": "Forward message"
+      },
+      "message-input": {
+        "placeholder": "Type your message here..."
+      },
+      "message": {
+        "deleted": "Message Deleted"
+      },
+      "chat-message-list-empty-state": {
+        "description": "You have no messages right now"
+      },
+      "remove-group-members-sidebar": {
+        "title": "Remove Group Participants"
+      },
+      "conversation-header": {
+        "online": "Active now",
+        "offline": "Offline"
+      },
+      "message-file-drop": {
+        "message": "Drag File Here"
+      },
+      "typing-indicator": {
+        "single-user": {
+          "typing": "{{user}} is Typing..."
+        },
+        "multiple-users-typing": "Multiple Users are Typing..."
+      }
+    },
+    "common": {
+      "error": {
+        "event-type-not-found": "EventType with id {{id}} not found",
+        "event-subscriber-not-found": "EventSubscriber with id {{id}} not found",
+        "graphql-validation-failed": "Invalid Input",
+        "graphql-parse-failed": "Parse error",
+        "invalid-uuid": "Provided argument should have been a valid uuid",
+        "unique-constraint-violated": "This request is invalid as it violates an unique constraint",
+        "internal-server-error": "Internal server error",
+        "ws-validation-failed": "Validation Failed"
+      }
+    },
+    "notifications": {
+      "error": {
+        "notification-type-channel-not-found": "NotificationTypeChannel with id {{id}} not found",
+        "notification-type-not-found": "NotificationType with id {{id}} not found",
+        "notification-user-not-found": "NotificationUser with id {{id}} not found",
+        "notification-not-found": "Notification with id {{id}} not found"
+      },
+      "notifications-panel": {
+        "title": "Notifications"
+      },
+      "notification-type-tabs": {
+        "tab": {
+          "all": "All",
+          "unread": "Unread"
+        }
+      },
+      "notification-menu-button": {
+        "mark-as-read": "Mark as read",
+        "mark-as-unread": "Mark as unread"
+      },
+      "notification-list-empty-state": {
+        "description": "You have no notifications right now"
+      },
+      "notification-preference-list-empty-state": {
+        "description": "You have no notification notifications preferences right now"
+      },
+      "notifications-preferences-panel": {
+        "title": "Notifications Preferences"
+      },
+      "notification-preference-channel-type": {
+        "type": {
+          "in_app": {
+            "description": "In-App"
+          },
+          "email": {
+            "description": "E-mail"
+          },
+          "sms": {
+            "description": "SMS"
+          },
+          "push": {
+            "description": "Push"
+          },
+          "external_chat": {
+            "description": "External Chat"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,11 +1,13 @@
 import "styles/globals.css";
 import type { AppProps } from "next/app";
-import { RoqProvider, ChatProvider } from "@roq/nextjs";
+import { RoqProvider, ChatProvider, useSession, withAuth } from "@roq/nextjs";
 import { clientConfig } from "config";
 import "@roq/nextjs/index.css";
 import { roqThemeLight } from "styles/roq-theme";
+import { appWithTranslation } from "next-i18next";
+import LocaleContext from "components/locale-context/locale-context";
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   /*
     The ROQ provider sets the context for inner ROQ components to consume variables such as the session
   */
@@ -20,8 +22,11 @@ export default function App({ Component, pageProps }: AppProps) {
       theme={roqThemeLight}
     >
       <ChatProvider>
+        <LocaleContext />
         <Component {...pageProps} />
       </ChatProvider>
     </RoqProvider>
   );
 }
+
+export default appWithTranslation(App);

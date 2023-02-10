@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "pages/login/login.module.css";
 import AuthLayout from "layout/auth/auth.layout";
 import { withAuth } from "components/hocs/auth/with-auth";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 const LoginPage = function () {
   return (
@@ -36,6 +37,14 @@ const LoginPage = function () {
     </AuthLayout>
   );
 };
+
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+    },
+  };
+}
 
 export default withAuth({ redirectIfAuthenticated: true, redirectTo: "/" })(
   LoginPage

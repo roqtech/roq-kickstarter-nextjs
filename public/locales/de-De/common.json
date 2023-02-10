@@ -1,0 +1,15 @@
+{
+  "roq-ui": {
+    "auth": {
+      "user-invites": {
+        "actions": {
+          "invite-users": "Benutzer einladen"
+        }
+      },
+      "error": {
+        "title": "Hoppla! Etwas ist schief gelaufen.",
+        "redirect-uri-mismatch": "Die bereitgestellte Umleitungs-URI befindet sich nicht in der Liste der zulässigen Rückruf-URLs."
+      }
+    }
+  }
+}

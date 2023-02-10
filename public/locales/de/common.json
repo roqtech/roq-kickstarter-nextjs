@@ -1,0 +1,475 @@
+{
+  "files": {
+    "title": "Aktuelle Dateien von Benutzern dieser App"
+  },
+  "roq-ui": {
+    "auth": {
+      "forget-password": {
+        "title": "Passwort zurücksetzen",
+        "button": {
+          "name": "Senden"
+        },
+        "submit": {
+          "success": "E-Mail zum Zurücksetzen des Passworts erfolgreich gesendet",
+          "success-cta": "Sie sollten eine E-Mail erhalten, wenn Ihr Konto in unserem System existiert und aktiv ist"
+        },
+        "sub-title": "Geben Sie unten Ihre registrierte E-Mail-Adresse ein",
+        "link-text": {
+          "login": "Gehen Sie zurück zu <login>Anmeldung</login>"
+        }
+      },
+      "user-invites": {
+        "filter": {
+          "all": "Alle",
+          "accepted": "Akzeptiert",
+          "pending": "Ausstehend",
+          "canceled": "Abgebrochen",
+          "expired": "Abgelaufen"
+        },
+        "status": {
+          "accepted": "Akzeptiert",
+          "pending": "Ausstehend",
+          "canceled": "Abgebrochen",
+          "expired": "Abgelaufen"
+        },
+        "table": {
+          "columns": {
+            "email": "Email",
+            "status": "Status",
+            "date": "Datum",
+            "role": "Rolle",
+            "actions": "Aktionen"
+          }
+        },
+        "actions": {
+          "revoke": {
+            "title": "Widerrufen",
+            "confirmation": {
+              "title": "Einladung widerrufen",
+              "confirm": "Widerrufen",
+              "cancel": "Absagen",
+              "message": "Möchten Sie die Einladung wirklich erneut an den folgenden Benutzer senden"
+            }
+          },
+          "resend": {
+            "title": "Einladung erneut versenden",
+            "confirmation": {
+              "confirm": "Erneut senden",
+              "cancel": "Absagen",
+              "message": "Möchten Sie die Einladung wirklich erneut an den folgenden Benutzer senden",
+              "title": "Einladung erneut versenden"
+            }
+          }
+        },
+        "title": "Einladungen",
+        "subTitle": "Lade andere ein"
+      },
+      "input": {
+        "company": {
+          "name": "Unternehmen",
+          "placeholder": "Geben Sie Ihr Unternehmen ein"
+        },
+        "phone": {
+          "name": "Telefon"
+        },
+        "position": {
+          "name": "Position"
+        },
+        "street_address": {
+          "name": "Adresse"
+        },
+        "zip_code": {
+          "name": "Postleitzahl"
+        },
+        "house_number": {
+          "name": "Hausnummer"
+        },
+        "city": {
+          "name": "Stadt"
+        },
+        "country": {
+          "name": "Land"
+        },
+        "email": {
+          "name": "E-Mail",
+          "placeholder": "Geben sie ihre E-Mail Adresse ein",
+          "validation": {
+            "required": "E-Mail ist ein Pflichtfeld",
+            "type": "Muss eine gültige E-Mail sein"
+          }
+        },
+        "password": {
+          "name": "Passwort",
+          "placeholder": "Geben Sie Ihr Passwort ein",
+          "validation": {
+            "required": "Passwort ist ein Pflichtfeld",
+            "strength": "mindestens ein Buchstabe, eine Zahl und ein Sonderzeichen",
+            "char-limit": "Zwischen 8 und 64 Zeichen haben",
+            "upper-char-required": "Mindestens 1 Großbuchstaben enthalten",
+            "number-required": "Mindestens 1 Nummer enthalten",
+            "special-char-required": "Mindestens 1 Sonderzeichen enthalten"
+          }
+        },
+        "keepMeLoggedIn": "Eingeloggt bleiben",
+        "first-name": {
+          "placeholder": "Geben Sie Ihren Vornamen ein",
+          "name": "Vorname"
+        },
+        "last-name": {
+          "name": "Nachname",
+          "placeholder": "Geben Sie Ihren Nachnamen ein"
+        }
+      },
+      "register": {
+        "title": "Registrieren",
+        "sub-title": "Das ist Ihr erster Schritt bei uns. Lassen Sie uns ROQ!",
+        "link-text": {
+          "terms-and-privacy": "Mit der Anmeldung stimme ich den <terms>Allgemeinen Geschäftsbedingungen</terms> und der <privacy>Datenschutzerklärung</privacy> zu",
+          "login": "Sie haben bereits ein Konto? <login>login</Anmeldung>"
+        },
+        "button": {
+          "name": "Benutzerkonto erstellen"
+        },
+        "your-password": {
+          "label": "Ihr Passwort muss"
+        },
+        "submit": {
+          "success": "Konto erfolgreich erstellt"
+        },
+        "success": {
+          "resend-confirmation-email": "Bestätigungs-E-Mail erfolgreich erneut gesendet"
+        }
+      },
+      "login": {
+        "title": "Anmeldung",
+        "sub-title": "Bitte geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein, um sich anzumelden",
+        "button": {
+          "name": "Anmelden"
+        },
+        "link-text": {
+          "register": "Sie haben kein Konto? <register>Registrieren</register>"
+        }
+      },
+      "forgot-password-cta": "Passwort vergessen?",
+      "link-text": {
+        "terms": "Allgemeine GeschÃ¤ftsbedingungen",
+        "privacy": "DatenschutzerklÃ¤rung"
+      },
+      "error": {
+        "error-page-message": "Anscheinend ist bei uns etwas schief gelaufen. Wir entschuldigen uns für die Unannehmlichkeiten. Bitte versuchen Sie es später erneut.",
+        "user-object-not-found": "Benutzer nicht gefunden",
+        "user-incorrect-email-password": "Die eingegebene E-Mail/Passwort ist nicht korrekt",
+        "user-not-activated": "Benutzer ist nicht aktiviert",
+        "invalid-token": "Angegebenes Token ist falsch",
+        "invalid-auth-header": "Autorisierungskopftyp wird nicht unterstützt",
+        "invalid-api-key": "Ungültiger API-Schlüssel",
+        "invalid-credentials": "Anmeldeinformationen sind falsch",
+        "missing-auth": "Autorisierungsheader wird nicht übergeben",
+        "unauthorized": "Unbefugt",
+        "unauthorized-exception": "{{message}}",
+        "user-not-found": "Benutzer mit ID {{id}} nicht gefunden"
+      },
+      "reset-password": {
+        "button": {
+          "name": "Senden"
+        },
+        "submit": {
+          "success": "Passwort erfolgreich aktualisiert",
+          "success-cta": "Ihr Passwort wurde zurückgesetzt. Diese Seite kann jetzt geschlossen werden"
+        }
+      },
+      "reset-password-subheading": "Um Ihr Passwort zurückzusetzen, geben Sie bitte Ihre registrierte E-Mail-Adresse ein und folgen Sie den Anweisungen.",
+      "confirm-registration": {
+        "title": "Bestätige deine E-Mail",
+        "sub-title": "Wir haben Ihnen eine E-Mail an <span>{{email}}</span> gesendet. Klicken Sie dort auf den Link, um mit der Registrierung fortzufahren.",
+        "resend-email": "E-Mail zurücksenden",
+        "did-not-receive-email": "Keine E-Mail erhalten?"
+      },
+      "activate-account": {
+        "title": "Konto bestätigen",
+        "sub-title": "Konto erfolgreich bestätigt. Diese Seite kann jetzt geschlossen werden"
+      },
+      "accept-invite": {
+        "title": "Einladung annehmen",
+        "sub-title": "Bitte füllen Sie die Details aus, um zu beginnen",
+        "submit": {
+          "success": "Einladung erfolgreich angenommen",
+          "success-cta": "Sie sind jetzt eingestellt. Diese Seite kann jetzt geschlossen werden"
+        },
+        "button": {
+          "name": "Einladung annehmen"
+        }
+      },
+      "user-invite": {
+        "button": {
+          "add": {
+            "label": "Benutzer einladen"
+          }
+        },
+        "input": {
+          "emails": {
+            "label": "Zu:",
+            "placeholder": "E-Mail, durch Kommas getrennt:"
+          },
+          "roles": {
+            "label": "Einladen als",
+            "placeholder": "Einladen als"
+          }
+        },
+        "roles": {
+          "validation": {
+            "required": "Rolle ist ein Pflichtfeld"
+          }
+        },
+        "emails": {
+          "validation": {
+            "required": "E-Mails sind ein Pflichtfeld"
+          }
+        },
+        "success": {
+          "message": "Einladung erfolgreich versendet"
+        }
+      },
+      "redirect": {
+        "click-to-application-login": "Klicken Sie <span>hier</span>, um sich anzumelden",
+        "auto-redirecting": "Sie werden in 5 Sekunden zum Login weitergeleitet",
+        "go-back-application-login": "Gehen Sie zurück zur Anwendung, um sich anzumelden"
+      }
+    },
+    "files": {
+      "file-active-uploads": {
+        "title": "Aktive Uploads"
+      },
+      "error": {
+        "file-status-update-failed": "Der Status „{{status}}“ kann für bereits hochgeladene Dateien nicht festgelegt werden",
+        "file-not-found": "Datei mit ID {{id}} nicht gefunden",
+        "file-not-completely-uploaded-status-update-failed": "Der Status {{status}} für eine Datei, die nicht vollständig hochgeladen wurde, kann nicht festgelegt werden",
+        "file-association-not-found": "FileAssociation mit ID {{id}} nicht gefunden",
+        "file-category-with-given-key-not-found": "FileCategory mit Schlüssel {{fileCategory}} nicht gefunden",
+        "file-category-not-found": "Dateikategorie mit ID {{id}} nicht gefunden",
+        "file-category-content-type-not-found": "FileCategoryContentType mit ID {{id}} nicht gefunden",
+        "invalid-content-type-for-file-category": "Dateityp {{extension}} ist kein gültiger Dateityp für {{fileCategoryName}}"
+      },
+      "file-status": {
+        "uploaded-successfully": "Erfolgreich hochgeladen",
+        "upload-cancelled": "Hochladen abgebrochen",
+        "upload-failed": "Upload fehlgeschlagen"
+      },
+      "file-uploaded-panel": {
+        "title": "Aktive Uploads"
+      },
+      "file-change-visibility-public-confirmation": {
+        "title": "Datei öffentlich machen",
+        "button": "Veröffentlichen",
+        "message": "Möchten Sie die folgende Datei wirklich öffentlich machen?"
+      },
+      "file-change-visibility-private-confirmation": {
+        "title": "Datei privat machen",
+        "button": "Privatisieren",
+        "message": "Sind Sie sicher, dass Sie die folgende Datei privat machen möchten?"
+      },
+      "file-upload": {
+        "title": "Dateien",
+        "message": "Ziehen Sie Dateien hierher oder verwenden Sie die",
+        "message-cta": "Datei hochladen",
+        "message-suffix": "Taste"
+      },
+      "file-upload-button": {
+        "label": "Datei hochladen"
+      },
+      "file-edit-form": {
+        "label": {
+          "name": "Name",
+          "extension": "Verlängerung"
+        },
+        "action": {
+          "make-public": "Veröffentlichen",
+          "make-private": "Privatisieren",
+          "copy-url": "URL kopieren"
+        }
+      },
+      "file-edit-modal": {
+        "title": "Datei bearbeiten",
+        "confirm": "Speichern",
+        "cancel": "Stornieren"
+      },
+      "file-delete-modal": {
+        "title": "Datei löschen",
+        "confirm": "Löschen",
+        "cancel": "Stornieren",
+        "message": "Möchten Sie die folgende Datei wirklich löschen?"
+      }
+    },
+    "chat": {
+      "message-updated-status": {
+        "label": "Bearbeitet"
+      },
+      "message-forwarded-status": {
+        "label": "Weitergeleitet"
+      },
+      "message-deleted-status": {
+        "label": "Nachricht gelöscht"
+      },
+      "error": {
+        "conversation-user-not-found": "ConversationUser mit ID {{id}} nicht gefunden",
+        "conversation-not-found": "Konversation mit ID {{id}} nicht gefunden",
+        "message-not-found": "Nachricht mit ID {{id}} nicht gefunden",
+        "message-status-not-found": "MessageStatus mit ID {{id}} nicht gefunden"
+      },
+      "group": {
+        "title": "Neue Gruppe"
+      },
+      "one-to-one": {
+        "title": "Plaudern"
+      },
+      "conversation-list-sidebar": {
+        "title": "Mitteilungen",
+        "search": {
+          "placeholder": "Suchen oder starten Sie einen neuen Chat"
+        }
+      },
+      "create-conversation-sidebar": {
+        "title": "Neuer Chat",
+        "search": {
+          "placeholder": "Suchen oder starten Sie einen neuen Chat"
+        }
+      },
+      "conversation-card": {
+        "form": {
+          "title": "Gruppe umbenennen",
+          "input": {
+            "placeholder": "Name"
+          }
+        }
+      },
+      "create-group-button": {
+        "label": "Neue Gruppe"
+      },
+      "conversation-menu": {
+        "markRead": "als gelesen markieren",
+        "markUnread": "als ungelesen markieren",
+        "rename": "Gruppe umbenennen",
+        "archive": "Archivgruppe",
+        "invite": "Gruppenteilnehmer hinzufügen",
+        "remove": "Gruppenteilnehmer entfernen",
+        "leave": "Gruppe verlassen"
+      },
+      "conversation-not-selected-panel": {
+        "description": "Sie haben gerade keine Nachrichten."
+      },
+      "create-group-sidebar": {
+        "title": "Neue Gruppe",
+        "search": {
+          "placeholder": "Suchen Sie ein Mitglied das der Gruppe hinzugefügt werden soll"
+        }
+      },
+      "forward-message-sidebar": {
+        "title": "Nachricht weiterleiten"
+      },
+      "invite-group-members-sidebar": {
+        "title": "Gruppenteilnehmer hinzufügen",
+        "search": {
+          "placeholder": "Mitglied suchen"
+        }
+      },
+      "update-group-members-sidebar": {
+        "title": "Gruppenteilnehmer entfernen",
+        "search": {
+          "placeholder": "Mitglied suchen"
+        }
+      },
+      "message-menu": {
+        "edit": "Nachricht bearbeiten",
+        "delete": "Nachricht löschen",
+        "reply": "Antwortnachricht",
+        "forward": "Nachricht weiterleiten"
+      },
+      "message-input": {
+        "placeholder": "Schreiben Sie ihre Nachricht hier.."
+      },
+      "message": {
+        "deleted": "Nachricht gelöscht"
+      },
+      "chat-message-list-empty-state": {
+        "description": "Sie haben gerade keine Nachrichten."
+      },
+      "remove-group-members-sidebar": {
+        "title": "Gruppenteilnehmer entfernen"
+      },
+      "conversation-header": {
+        "online": "Jetzt aktiv",
+        "offline": "Offline"
+      },
+      "message-file-drop": {
+        "message": "Datei hierher ziehen"
+      },
+      "typing-indicator": {
+        "single-user": {
+          "typing": "{{user}} tippt..."
+        },
+        "multiple-users-typing": "Mehrere Benutzer schreiben ..."
+      }
+    },
+    "common": {
+      "error": {
+        "event-type-not-found": "EventType mit ID {{id}} nicht gefunden",
+        "event-subscriber-not-found": "EventSubscriber mit ID {{id}} nicht gefunden",
+        "graphql-validation-failed": "Ungültige Eingabe.graphql-validation-failed",
+        "graphql-parse-failed": "Parse-Fehler",
+        "invalid-uuid": "Das bereitgestellte Argument hätte eine gültige UUID sein müssen",
+        "unique-constraint-violated": "Diese Anforderung ist ungültig, da sie gegen eine Eindeutigkeitsbeschränkung verstößt",
+        "internal-server-error": "Interner Serverfehler",
+        "ws-validation-failed": "Überprüfung fehlgeschlagen"
+      }
+    },
+    "notifications": {
+      "error": {
+        "notification-type-channel-not-found": "NotificationTypeChannel mit ID {{id}} nicht gefunden",
+        "notification-type-not-found": "NotificationType mit ID {{id}} nicht gefunden",
+        "notification-user-not-found": "NotificationUser mit ID {{id}} nicht gefunden",
+        "notification-not-found": "Benachrichtigung mit ID {{id}} nicht gefunden"
+      },
+      "notifications-panel": {
+        "title": "Benachrichtigungen"
+      },
+      "notification-type-tabs": {
+        "tab": {
+          "all": "Alles",
+          "unread": "Ungelesen"
+        }
+      },
+      "notification-menu-button": {
+        "mark-as-read": "als gelesen markieren",
+        "mark-as-unread": "als ungelesen markieren"
+      },
+      "notification-list-empty-state": {
+        "description": "Sie haben derzeit keine Benachrichtigungen"
+      },
+      "notification-preference-list-empty-state": {
+        "description": "Sie haben derzeit keine Einstellungen für Benachrichtigungen"
+      },
+      "notifications-preferences-panel": {
+        "title": "Benachrichtigungseinstellungen"
+      },
+      "notification-preference-channel-type": {
+        "type": {
+          "in_app": {
+            "description": "In-App"
+          },
+          "email": {
+            "description": "Email"
+          },
+          "sms": {
+            "description": "SMS"
+          },
+          "push": {
+            "description": "Push-Benachrichtigung"
+          },
+          "external_chat": {
+            "description": "Externer Chat"
+          }
+        }
+      }
+    }
+  }
+}

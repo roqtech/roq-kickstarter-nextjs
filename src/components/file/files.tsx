@@ -6,8 +6,10 @@ import Loader from "components/loader";
 import { FilesFetchResponse } from "components/file/types";
 import Card from "components/card";
 import UploadFile from "components/file/upload-file";
+import { useTranslation } from "react-i18next";
 
 export default function Files() {
+  const { t } = useTranslation();
   const fetcher: Fetcher<FilesFetchResponse> = (apiURL: string) =>
     fetch(apiURL).then((res) => res.json());
 
@@ -26,7 +28,7 @@ export default function Files() {
 
   return (
     <div className={styles.feed}>
-      <h2 className={styles.title}>Recent files from users of this app</h2>
+      <h2 className={styles.title}>{t("files.title")}</h2>
 
       <div className={styles.uploadContainer}>
         <Card>
