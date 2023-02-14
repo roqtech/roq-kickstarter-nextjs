@@ -25,7 +25,6 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
         ownerId: session.roqUserId,
         memberIds: [session.roqUserId, ...userIds],
         title: "DEMO",
-        isGroup: true,
       },
     });
 
