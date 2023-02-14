@@ -11,7 +11,7 @@ export default RoqAuth({
   hooks: {
     // This hook is optional - and can be used to persist user information,
     // or as in the case below, send them a welcome notification
-    onLoginSuccess({ session, user }) {
+    onLoginSuccess: async ({ session, user }) => {
       //   If the user was just created, welcome them
       if (Date.now() - new Date(user.createdAt).getTime() < 60000) {
         UserService.welcomeUser(user.id);
