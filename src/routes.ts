@@ -7,5 +7,6 @@ export const routes = {
   },
   server: {
     files: "/api/files",
+    contact: "/api/contact"
   },
 };

@@ -5,7 +5,7 @@
 import Head from "next/head";
 import styles from "layout/app/app.layout.module.css";
 import Image from "next/image";
-import { NotificationBell, ChatMessageBell, signOut } from "@roq/nextjs";
+import { NotificationBell, ChatMessageBell, signOut, useSession } from "@roq/nextjs";
 import { useRouter } from "next/router";
 import { routes } from "routes";
 
@@ -17,6 +17,20 @@ interface AppLayoutProps {
 
 export default function AppLayout({ children }: AppLayoutProps) {
   const router = useRouter();
+
+  const handleContactUs = async () => {
+    const result = await fetch(routes.server.contact, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+    });
+
+    if (!result.ok) {
+      return;
+    }
+
+    router.push(routes.frontend.chat);
+  }
+
   return (
     <>
       <Head>
@@ -45,6 +59,8 @@ export default function AppLayout({ children }: AppLayoutProps) {
             <ChatMessageBell
               onClick={() => router.push(routes.frontend.chat)}
             />
+
+            <button onClick={handleContactUs} className="btn btn-sm">create conversation</button>
 
             <button onClick={() => signOut()} className="btn btn-sm">
               Logout
