@@ -19,7 +19,7 @@ export default function UploadFile({ onSuccess, onDelete }: UploadFileProps) {
   // you can use this hook to get the fileUploader object
   const fileUploader = useRoqFileUploader({
     onUploadSuccess: (file) => {
-      onSuccess?.(file);
+      onSuccess?.(file as unknown as File); // TODO: fix interface
       setNewFile(undefined);
     },
     onUploadFail: (err) => {
