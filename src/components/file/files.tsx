@@ -16,8 +16,15 @@ export default function Files() {
     fetcher
   );
 
-  const handleCreateSuccess = () => {
+  const notify = (fileId: string) => fetch(routes.server.files, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ fileId }),
+  });
+
+  const handleCreateSuccess = (file: { id: string }) => {
     mutate();
+    notify(file.id)
   };
 
   const handleDelete = () => {
