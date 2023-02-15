@@ -37,7 +37,6 @@ async function postHandler(req: NextApiRequest, res: NextApiResponse) {
         ],
         recipients: {
           allUsers: true,
-          excludedUserIds: [session.roqUserId],
         },
       },
     });
