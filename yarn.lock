@@ -665,13 +665,13 @@
     "tiny-glob" "^0.2.9"
     "tslib" "^2.4.0"
 
-"@roq/nextjs@^0.1.51-rc5":
-  "integrity" "sha512-V62rRijhbNXQNEAFjx1S0cTxPV+/FcQR/gPcDewfqztdiDBBbmk89hDAo2f2CCtbiSoFDjMQQKrvIPNBWav4uA=="
-  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.51-rc5.tgz"
-  "version" "0.1.51-rc5"
+"@roq/nextjs@^0.1.51-rc6":
+  "integrity" "sha512-Jzt6KR9prhclDG5N5NrRejUnDcrArRsU/MZ9PFs5gMZpr8m4iE9RQ53m0IDYDT8LrXFvy4vBrfAM+uH3feS1bA=="
+  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.51-rc6.tgz"
+  "version" "0.1.51-rc6"
   dependencies:
-    "@roq/nodejs" "^0.1.13"
-    "@roq/ui-react" "^0.2.2-rc2"
+    "@roq/nodejs" "^0.1.14"
+    "@roq/ui-react" "^0.2.2-rc4"
     "cookie" "^0.5.0"
     "lodash.isempty" "^4.4.0"
     "node-fetch" "^3.3.0"
@@ -682,10 +682,10 @@
     "uuid" "^9.0.0"
     "yup" "^0.32.11"
 
-"@roq/nodejs@^0.1.13":
-  "integrity" "sha512-8hWNOKm4qS+kxLgcmvT+9iVj+eSz9cfJ9IKcY+05OWKVNMosKBGEAyw4FvKhi/NakIxVIrrh1JrfuEfHQDwflA=="
-  "resolved" "https://registry.npmjs.org/@roq/nodejs/-/nodejs-0.1.13.tgz"
-  "version" "0.1.13"
+"@roq/nodejs@^0.1.14":
+  "integrity" "sha512-MOEyjGF8R37pNwg/M8mL4irp5yMdOPm+2WGK+HPKqqQdb/Vo8Yy3n1c4cWZRGys/vK4OxNHHypLYlIB9TAW88Q=="
+  "resolved" "https://registry.npmjs.org/@roq/nodejs/-/nodejs-0.1.14.tgz"
+  "version" "0.1.14"
   dependencies:
     "graphql" "^16.6.0"
     "graphql-request" "^5.0.0"
@@ -694,10 +694,10 @@
     "node-cache" "^5.1.2"
     "node-fetch" "^2.6.7"
 
-"@roq/ui-react@^0.2.2-rc2":
-  "integrity" "sha512-DSYwGdIh/6ToNV580+n3Jts6fEBPWwU5Apt4Y2TeUqx2VkTqpliLo9xoO1ZaQ0Qtzr7Rey8gKpetZccXqFIJBQ=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.2-rc3.tgz"
-  "version" "0.2.2-rc3"
+"@roq/ui-react@^0.2.2-rc4":
+  "integrity" "sha512-sJX+CuLUYEC3PIb7uThIs99+mr13yEy+43shP6yGujyyvRVoYtzyDD0DoWl+UpQvlNuuR37mRr4HUnbWgjpVzQ=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.2-rc4.tgz"
+  "version" "0.2.2-rc4"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
@@ -2015,9 +2015,9 @@
     "safe-buffer" "^5.0.1"
 
 "electron-to-chromium@^1.4.284":
-  "integrity" "sha512-lEO94zqf1bDA3aepxwnWoHUjA8sZ+2owgcSZjYQy0+uOSEclJX0VieZC+r+wLpSxUHRd6gG32znTWmr+5iGzFw=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.295.tgz"
-  "version" "1.4.295"
+  "integrity" "sha512-i/6Q+Y9bluDa2a0NbMvdtG5TuS/1Fr3TKK8L+7UUL9QjRS5iFJzCC3r70xjyOnLiYG8qGV4/mMpe6HuAbdJW4w=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.296.tgz"
+  "version" "1.4.296"
 
 "elliptic@^6.5.3":
   "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
@@ -5813,9 +5813,9 @@
   "version" "1.10.2"
 
 "yjs@>=13.5.22":
-  "integrity" "sha512-9VUNDvb9oJHdYSMdzIpdM/agVm+EEFKRN+843CFqQuq5bo/BP3EAaxofRG9jQut3sqtGQT4A9YdQvOeeAjU6aA=="
-  "resolved" "https://registry.npmjs.org/yjs/-/yjs-13.5.45.tgz"
-  "version" "13.5.45"
+  "integrity" "sha512-KIY4BEWYCm79Sr4JTDvgirXmz3lVZ5n7h6nKlsBYu97f/HDQo+XSoq92RqBiybejF9E/L5Iz+56zZrSfBKZ5DQ=="
+  "resolved" "https://registry.npmjs.org/yjs/-/yjs-13.5.46.tgz"
+  "version" "13.5.46"
   dependencies:
     "lib0" "^0.2.49"
 
