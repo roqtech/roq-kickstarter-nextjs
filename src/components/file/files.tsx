@@ -22,9 +22,9 @@ export default function Files() {
     body: JSON.stringify({ fileId }),
   });
 
-  const handleCreateSuccess = (file: { id: string }) => {
+  const handleCreateSuccess = (file: File) => {
     mutate();
-    notify(file.id)
+    notify((file as unknown as { id: string }).id);
   };
 
   const handleDelete = () => {
