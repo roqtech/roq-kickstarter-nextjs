@@ -665,13 +665,13 @@
     "tiny-glob" "^0.2.9"
     "tslib" "^2.4.0"
 
-"@roq/nextjs@^0.1.56-rc5":
-  "integrity" "sha512-3+g8FRqk5JW5d4mk9GI+Wl1uCDrO2bHnTq/9yGL3glz5n4H+rjCbRrwWrxhglvKboT6o0QZj0aegjbwkDLZzRw=="
-  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.56-rc5.tgz"
-  "version" "0.1.56-rc5"
+"@roq/nextjs@^0.1.56":
+  "integrity" "sha512-lPfqac3KC3bSzGzDW5CLL3e4IkqKo8g7Y//DRiLXUd3USviNF510wksLXFzOPPXhP1qVnQ/YNQTyti8ZLLtCKw=="
+  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.56.tgz"
+  "version" "0.1.56"
   dependencies:
     "@roq/nodejs" "^0.1.14"
-    "@roq/ui-react" "^0.2.4-rc6"
+    "@roq/ui-react" "^0.2.4"
     "cookie" "^0.5.0"
     "lodash.isempty" "^4.4.0"
     "node-fetch" "^3.3.0"
@@ -694,10 +694,10 @@
     "node-cache" "^5.1.2"
     "node-fetch" "^2.6.7"
 
-"@roq/ui-react@^0.2.4-rc6":
-  "integrity" "sha512-noacKoSGmWoSVgj0vAZIki+f62eUdK9XCbcysm2ijwPLrIDFp8dhKE4GU8ERlfypu5HTvvzdak2x95d1hRQHQA=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.4-rc6.tgz"
-  "version" "0.2.4-rc6"
+"@roq/ui-react@^0.2.4":
+  "integrity" "sha512-TZ1Sr98fnuUluXIUth1yTAV8KicwBJRE8YlJPO31GMLQDNWmnDjHVgnCAFbl0oJBsV5Tbzq3/Kq/8/DBNJ4Q1w=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.4.tgz"
+  "version" "0.2.4"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
