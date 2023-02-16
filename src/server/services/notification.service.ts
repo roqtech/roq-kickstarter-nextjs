@@ -2,7 +2,7 @@ import { NotificationTypes } from "server/enums";
 import { roqClient } from "server/roq";
 
 export class NotificationService {
-  static async notifyNftDrop(creatorId: string, userIds?: string[]) {
+  static async notifyNftDrop(creatorId: string, nftUrl?: string, userIds?: string[]) {
     const { firstName, lastName } = (await roqClient.asSuperAdmin().user({ id: creatorId }))?.user ?? {}
     await roqClient.asSuperAdmin().notify({
       notification: {
@@ -11,6 +11,9 @@ export class NotificationService {
         data: [{
           key: 'creatorName',
           value: `${firstName} ${lastName}`
+        }, {
+          key: 'nftUrl',
+          value: nftUrl
         }]
       },
     });

@@ -8,10 +8,11 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     res.end();
   }
 
+  const { url } = req.body ?? {}
   const session = getServerSession(req, res);
 
   try {
-    await NotificationService.notifyNftDrop(session.roqUserId)
+    await NotificationService.notifyNftDrop(session.roqUserId, url)
     res.status(200).send({})
   } catch (e) {
     res.status(400).send({})
