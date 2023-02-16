@@ -17,8 +17,15 @@ interface UploadFileProps {
 export default function UploadFile({ onSuccess, onDelete }: UploadFileProps) {
   const [newFile, setNewFile] = useState<File>();
 
-  const fetcher = (apiURL: string) =>
-    fetch(apiURL, { method: 'POST' }).then((res) => res.json());
+  const fetcher = (apiURL: string, { arg }: { arg: string }) =>
+    fetch(apiURL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({ url: arg }),
+    }).then((res) => res.json())
 
   const { trigger: notifyNft } = useSWRMutation(
     routes.server.notifyNftDrop,
@@ -31,7 +38,7 @@ export default function UploadFile({ onSuccess, onDelete }: UploadFileProps) {
     onUploadSuccess: (file) => {
       onSuccess?.();
       setNewFile(undefined);
-      notifyNft()
+      notifyNft(file?.url)
     },
     onUploadFail: (err) => {
       console.error(err);
