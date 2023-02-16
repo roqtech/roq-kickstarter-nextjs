@@ -9,15 +9,25 @@ This is a [ROQ](https://roq.tech) project showcasing how to use ROQ UI widgets a
 
 ## Get started
 
-Step 1 - Setup your ROQ environment variables. Check the example .env.example file
-You can get the environment variables from the [ROQ Console](https://console.roq.tech)
+Step 1 - Clone the repository:
+
+``` 
+git clone git@github.com:roqtech/roq-kickstarter-nextjs.git
+```
+
+Step 2 - Setup your ROQ environment variables. Check the example .env.example file
+
+* Login to [ROQ Console](https://console.roq.tech) (opens in a new tab) and go to Project Details ➔ Settings.
+* Then add your base URL (usually it's http://localhost:3000/) and press the Save button (top right).
+* When this is done, you can press the Copy Env File button and copy the entire output.
+* Create a new file called .env in the root of your project and paste the content in.
 
 ```bash
 cp .env.example .env
 # Get the variables from the ROQ console, and replace the values
 ```
 
-Step 2 - You can then install, and start up your application
+Step 3 - You can then install, and start up your application
 
 ```bash
 # With Yarn
