@@ -4,28 +4,58 @@
 }
 
 .header {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  top: 0px;
-  left: 0px;
-  height: 70px;
-  right: 0px;
-  padding: 10px 50px;
-  background-color: #ffffff;
-  overflow: hidden;
-  box-shadow: rgba(var(--light-grey-rgb), 0.3) 14px 17px 40px 4px;
-}
-
-.logo {
-  color: #000000;
-  margin-top: -10px;
-}
-
-.logout {
   display: flex;
   align-items: center;
+  height: var(--header-height, 70px);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  padding: 10px 40px;
+  background-color: var(--header-color, #fff);
+  border-bottom: 1px solid rgba(var(--light-grey-rgb), 0.3);
+  z-index: 20;
+}
+
+.brand {
+  display: inline-flex;
+}
+
+.globalNavigation {
+  margin-left: auto;
+
+  --roc-notification-bell-icon-wrapper-color: #8f90aa;
+  --roq-chat-message-bell-icon-color: #8f90aa;
+}
+
+.globalNavigationList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  padding: 0px;
   margin: 0px;
+  position: relative;
+}
+
+.globalNavigationList > li {
+}
+
+.globalNavigationList > li + li:before {
+  content: "";
+  background-color: #e6ebf5;
+  position: absolute;
+  pointer-events: none;
+  width: 1px;
+  height: 24px;
+  top: 0px;
+  transform: translate3d(-24px, 13px, 0);
+}
+
+.globalNavigationList > li > button,
+.globalNavigationList > li > a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .content {

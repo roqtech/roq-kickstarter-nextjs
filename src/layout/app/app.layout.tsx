@@ -27,31 +27,26 @@ export default function AppLayout({ children }: AppLayoutProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.header}>
-          <Link href={"/"}>
+        <header className={styles.header}>
+          <Link href={"/"} role="presentation" className={styles.brand}>
             <Image
-              className={styles.logo}
-              src="/roq.svg"
+              src="/brand.svg"
               alt="ROQ Logo"
               width={80}
-              height={80}
+              height={40}
               priority
             />
           </Link>
-          <div className={styles.linksContainer}>
-            <Link href={routes.frontend.invites}>Invites</Link>
-
-            {/* ROQ Notification and Chat bell */}
-            <NotificationBell />
-            <ChatMessageBell
-              onClick={() => router.push(routes.frontend.chat)}
-            />
-
-            <button onClick={() => signOut()} className="btn btn-sm">
-              Logout
-            </button>
-          </div>
-        </div>
+          <nav className={styles.globalNavigation}>
+            <ul className={styles.globalNavigationList}>
+              <li className="strong"><Link href={routes.frontend.invites}>Invites</Link></li>
+              {/* ROQ Notification and Chat bell */}
+              <li><NotificationBell /></li>
+              <li><ChatMessageBell onClick={() => router.push('/chat')} /></li>
+              <li><button className="btn btn-sm" onClick={signOut}>Logout</button></li>
+            </ul>
+          </nav>
+        </header>
         <div className={styles.content}>{children}</div>
       </main>
     </>
