@@ -451,9 +451,9 @@
   "resolved" "https://registry.npmjs.org/@next/font/-/font-13.1.1.tgz"
   "version" "13.1.1"
 
-"@next/swc-darwin-arm64@13.1.1":
-  "integrity" "sha512-9zRJSSIwER5tu9ADDkPw5rIZ+Np44HTXpYMr0rkM656IvssowPxmhK0rTreC1gpUCYwFsRbxarUJnJsTWiutPg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.1.1.tgz"
+"@next/swc-darwin-x64@13.1.1":
+  "integrity" "sha512-qWr9qEn5nrnlhB0rtjSdR00RRZEtxg4EGvicIipqZWEyayPxhUu6NwKiG8wZiYZCLfJ5KWr66PGSNeDMGlNaiA=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-13.1.1.tgz"
   "version" "13.1.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -489,12 +489,12 @@
     "tiny-glob" "^0.2.9"
     "tslib" "^2.4.0"
 
-"@roq/nextjs@^0.1.57-rc6":
-  "integrity" "sha512-MjL5SNQWDqDzAwwxlHPncPZ3B+JYrXbnTZL2B3p6capbCzR+LDkS/xh0cctil7U+hKGPyQMino7y/YgyAoMU6w=="
-  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.57-rc6.tgz"
-  "version" "0.1.57-rc6"
+"@roq/nextjs@^0.1.57-rc8":
+  "integrity" "sha512-gx7pCrbn4wCNObYlOxMwvTyt7WKWj70MbIImYD1rq7kbo/GpyZN9om5GWQIFak1Ft8DY7kzLifICXgBEJBlXCA=="
+  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.57-rc8.tgz"
+  "version" "0.1.57-rc8"
   dependencies:
-    "@roq/nodejs" "^0.1.14"
+    "@roq/nodejs" "^0.1.15"
     "@roq/ui-react" "^0.2.6-rc2"
     "cookie" "^0.5.0"
     "lodash.isempty" "^4.4.0"
@@ -506,10 +506,10 @@
     "uuid" "^9.0.0"
     "yup" "^0.32.11"
 
-"@roq/nodejs@^0.1.14":
-  "integrity" "sha512-MOEyjGF8R37pNwg/M8mL4irp5yMdOPm+2WGK+HPKqqQdb/Vo8Yy3n1c4cWZRGys/vK4OxNHHypLYlIB9TAW88Q=="
-  "resolved" "https://registry.npmjs.org/@roq/nodejs/-/nodejs-0.1.14.tgz"
-  "version" "0.1.14"
+"@roq/nodejs@^0.1.15":
+  "integrity" "sha512-x2adH2H4sEcuBSgETkgKGfAawVUfM1CY2WdQteFyrcB3rwqbfLhNOVtG7cwHxo+ZDqKt6vZIiTRPawrvGcKMPQ=="
+  "resolved" "https://registry.npmjs.org/@roq/nodejs/-/nodejs-0.1.15.tgz"
+  "version" "0.1.15"
   dependencies:
     "graphql" "^16.6.0"
     "graphql-request" "^5.0.0"
@@ -3186,9 +3186,9 @@
     "supports-color" "^8.0.0"
 
 "jose@^4.10.0":
-  "integrity" "sha512-94FdcR8felat4vaTJyL/WVdtlWLlsnLMZP8v+A0Vru18K3bQ22vn7TtpVh3JlgBFNIlYOUlGqwp/MjRPOnIyCQ=="
-  "resolved" "https://registry.npmjs.org/jose/-/jose-4.11.4.tgz"
-  "version" "4.11.4"
+  "integrity" "sha512-wW1u3cK81b+SFcHjGC8zw87yuyUweEFe0UJirrXEw1NasW00eF7sZjeG3SLBGz001ozxQ46Y9sofDvhBmWFtXQ=="
+  "resolved" "https://registry.npmjs.org/jose/-/jose-4.12.0.tgz"
+  "version" "4.12.0"
 
 "js-cookie@^2.2.1":
   "integrity" "sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ=="
