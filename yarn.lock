@@ -489,13 +489,13 @@
     "tiny-glob" "^0.2.9"
     "tslib" "^2.4.0"
 
-"@roq/nextjs@^0.1.57-rc1":
-  "integrity" "sha512-sL7/d9asQ734DxZ7Pf//+8rC0Rx+R8TBiHeqLtOnrBw6nTYPmfFPP1OXC5B/27z9BbNdJpgyQAVQMqnfgps9vw=="
-  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.57-rc1.tgz"
-  "version" "0.1.57-rc1"
+"@roq/nextjs@^0.1.57-rc4":
+  "integrity" "sha512-57pTCf6VJGdxyLCA2ilEPp6zQqAEG0dsAX8OJ43bqvmnKvbnPmuhUXH2C47+heDlgQ5znEZqvIS0aOk1dpd3Ug=="
+  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.57-rc4.tgz"
+  "version" "0.1.57-rc4"
   dependencies:
     "@roq/nodejs" "^0.1.14"
-    "@roq/ui-react" "^0.2.5-rc2"
+    "@roq/ui-react" "^0.2.6-rc1"
     "cookie" "^0.5.0"
     "lodash.isempty" "^4.4.0"
     "node-fetch" "^3.3.0"
@@ -518,10 +518,10 @@
     "node-cache" "^5.1.2"
     "node-fetch" "^2.6.7"
 
-"@roq/ui-react@^0.2.5-rc2":
-  "integrity" "sha512-wEiTSJbiqPsFdipw8GV9hrMDBi54AR2FrSoHWIbxD1iDbDXu/r4+qDamkAv70zkxCcIXRxLAfEuDQYEkD0JChA=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.5-rc2.tgz"
-  "version" "0.2.5-rc2"
+"@roq/ui-react@^0.2.6-rc1":
+  "integrity" "sha512-UlPGtbzPEsSAFbZGTaBKjQu5cdEUVvdUO7hiA39/Nj4APPOKFVMv59VDnNfAuGeETXq5a6u9qeJGBo5heJOBaQ=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.6-rc1.tgz"
+  "version" "0.2.6-rc1"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
@@ -1839,9 +1839,9 @@
     "safe-buffer" "^5.0.1"
 
 "electron-to-chromium@^1.4.284":
-  "integrity" "sha512-bz00ASIIDjcgszZKuEA1JEFhbDjqUNbQ/PEhNEl1wbixzYpeTp2H2QWjsQvAL2T1wJBdOwCF5hE896BoMwYKrA=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.301.tgz"
-  "version" "1.4.301"
+  "integrity" "sha512-Uk7C+7aPBryUR1Fwvk9VmipBcN9fVsqBO57jV2ZjTm+IZ6BMNqu7EDVEg2HxCNufk6QcWlFsBkhQyQroB2VWKw=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.302.tgz"
+  "version" "1.4.302"
 
 "elliptic@^6.5.3":
   "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
@@ -4667,9 +4667,9 @@
   "version" "2.1.2"
 
 "sanitize-html@^2.7.2":
-  "integrity" "sha512-KY1hpSbqFNcpoLf+nP7iStbP5JfQZ2Nd19ZEE7qFsQqRdp+sO5yX/e5+HoG9puFAcSTEpzQuihfKUltDcLlQjg=="
-  "resolved" "https://registry.npmjs.org/sanitize-html/-/sanitize-html-2.9.0.tgz"
-  "version" "2.9.0"
+  "integrity" "sha512-JqdovUd81dG4k87vZt6uA6YhDfWkUGruUu/aPmXLxXi45gZExnt9Bnw/qeQU8oGf82vPyaE0vO4aH0PbobB9JQ=="
+  "resolved" "https://registry.npmjs.org/sanitize-html/-/sanitize-html-2.10.0.tgz"
+  "version" "2.10.0"
   dependencies:
     "deepmerge" "^4.2.2"
     "escape-string-regexp" "^4.0.0"
