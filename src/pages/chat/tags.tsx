@@ -9,7 +9,6 @@ function ChatWithTagsPage() {
   const [hotel, setHotel] = useState('hotel-1')
 
   const handleSelectChange = useCallback((e: FormEvent<HTMLSelectElement>) => {
-    console.dir('handleSelectChange')
     setHotel(e.currentTarget.value)
   }, [])
 
