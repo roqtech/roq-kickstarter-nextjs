@@ -1,4 +1,4 @@
-import { useCallback } from 'react'
+import { useCallback, useEffect } from 'react'
 import { ChatSidebar, ChatWindow, requireNextAuth } from "@roq/nextjs";
 import { useRouter } from "next/router";
 import AppLayout from "layout/app/app.layout";
@@ -29,7 +29,7 @@ function ChatPage() {
           onCurrentConversationIdChanged={navigateToConversationRoute} generateConversationLink={generateConversationLink}
           className={styles.sidebar}
         />
-        <ChatWindow conversationId={router.query.cid as string} />
+        <ChatWindow conversationId={router.query.cid as string} flushOnUnmount={false} />
       </section>
     </AppLayout>
   );
