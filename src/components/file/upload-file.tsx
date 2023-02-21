@@ -8,7 +8,7 @@ import styles from "components/file/upload-file.module.css";
 import { useRoqFileUploader, FileUpload } from "@roq/nextjs";
 
 interface UploadFileProps {
-  onSuccess?: (file: File) => void;
+  onSuccess?: () => void;
   onDelete?: (id: string) => void;
 }
 
@@ -19,7 +19,7 @@ export default function UploadFile({ onSuccess, onDelete }: UploadFileProps) {
   // you can use this hook to get the fileUploader object
   const fileUploader = useRoqFileUploader({
     onUploadSuccess: (file) => {
-      onSuccess?.(file);
+      onSuccess?.();
       setNewFile(undefined);
     },
     onUploadFail: (err) => {
