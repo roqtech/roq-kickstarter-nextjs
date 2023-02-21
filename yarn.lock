@@ -3,9 +3,9 @@
 
 
 "@apollo/client@^3.7.1":
-  "integrity" "sha512-o1NxF4ytET2w9HSVMLwYUEEdv6H3XPpbh9M+ABVGnUVT0s6T9pgqRtYO4pFP1TmeDmb1pbRfVhFwh3gC167j5Q=="
-  "resolved" "https://registry.npmjs.org/@apollo/client/-/client-3.7.8.tgz"
-  "version" "3.7.8"
+  "integrity" "sha512-YnJvrJOVWrp4y/zdNvUaM8q4GuSHCEIecsRDTJhK/veT33P/B7lfqGJ24NeLdKMj8tDEuXYF7V0t+th4+rgC+Q=="
+  "resolved" "https://registry.npmjs.org/@apollo/client/-/client-3.7.9.tgz"
+  "version" "3.7.9"
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.1"
     "@wry/context" "^0.7.0"
@@ -62,9 +62,9 @@
     "regenerator-runtime" "^0.13.11"
 
 "@babel/types@^7.18.6":
-  "integrity" "sha512-69OnhBxSSgK0OzTJai4kyPDiKTIe3j+ctaHdIGVbRahTLAT7L3R9oeXHC2aVSuGYt3cVnoAMDmOCgJ2yaiLMvg=="
-  "resolved" "https://registry.npmjs.org/@babel/types/-/types-7.20.7.tgz"
-  "version" "7.20.7"
+  "integrity" "sha512-uR7NWq2VNFnDi7EYqiRz2Jv/VQIu38tu64Zy8TX2nQFQ6etJ9V/Rr2msW8BS132mum2rL645qpDrLtAJtVpuow=="
+  "resolved" "https://registry.npmjs.org/@babel/types/-/types-7.21.0.tgz"
+  "version" "7.21.0"
   dependencies:
     "@babel/helper-string-parser" "^7.19.4"
     "@babel/helper-validator-identifier" "^7.19.1"
@@ -489,13 +489,13 @@
     "tiny-glob" "^0.2.9"
     "tslib" "^2.4.0"
 
-"@roq/nextjs@^0.1.57-rc8":
-  "integrity" "sha512-gx7pCrbn4wCNObYlOxMwvTyt7WKWj70MbIImYD1rq7kbo/GpyZN9om5GWQIFak1Ft8DY7kzLifICXgBEJBlXCA=="
-  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.57-rc8.tgz"
-  "version" "0.1.57-rc8"
+"@roq/nextjs@^0.1.61-rc5":
+  "integrity" "sha512-opoVsEpw3bjLAOoky3LfVU0d26qd0b06EOTjsgs+cbtDi8wqES3bPFceO7bNp574x++Md/VXFOl0CMAFPU83qQ=="
+  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.61-rc5.tgz"
+  "version" "0.1.61-rc5"
   dependencies:
     "@roq/nodejs" "^0.1.15"
-    "@roq/ui-react" "^0.2.6-rc2"
+    "@roq/ui-react" "^0.2.6-rc8"
     "cookie" "^0.5.0"
     "lodash.isempty" "^4.4.0"
     "node-fetch" "^3.3.0"
@@ -518,10 +518,10 @@
     "node-cache" "^5.1.2"
     "node-fetch" "^2.6.7"
 
-"@roq/ui-react@^0.2.6-rc2":
-  "integrity" "sha512-8zdPMoQ7bw4Eozxr0gJ0s9U8s6poPhdErey85BJjIuGo9hDC778gIuI2fQkCpUyZDcderRgswiAYAfIAuW2sog=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.6-rc2.tgz"
-  "version" "0.2.6-rc2"
+"@roq/ui-react@^0.2.6-rc8":
+  "integrity" "sha512-Qt4/n6aMyU/EI2pL3o52DMR1QZYjZKGn5UVH8ghtRHOqHrl6s98+idO+NjNR9IYLi89v8uvsVwPCV3UVrc/BlA=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.6-rc8.tgz"
+  "version" "0.2.6-rc8"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
@@ -1841,9 +1841,9 @@
     "safe-buffer" "^5.0.1"
 
 "electron-to-chromium@^1.4.284":
-  "integrity" "sha512-Uk7C+7aPBryUR1Fwvk9VmipBcN9fVsqBO57jV2ZjTm+IZ6BMNqu7EDVEg2HxCNufk6QcWlFsBkhQyQroB2VWKw=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.302.tgz"
-  "version" "1.4.302"
+  "integrity" "sha512-6c8M+ojPgDIXN2NyfGn8oHASXYnayj+gSEnGeLMKb9zjsySeVB/j7KkNAAG9yDcv8gNlhvFg5REa1N/kQU6pgA=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.304.tgz"
+  "version" "1.4.304"
 
 "elliptic@^6.5.3":
   "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
@@ -4820,9 +4820,9 @@
   "version" "4.0.0"
 
 "socket.io-client@^4.4.0":
-  "integrity" "sha512-2XOp18xnGghUICSd5ziUIS4rB0dhr6S8OvAps8y+HhOjFQlqGcf+FIh6fCIsKKZyWFxJeFPrZRNPGsHDTsz1Ug=="
-  "resolved" "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.6.0.tgz"
-  "version" "4.6.0"
+  "integrity" "sha512-5UswCV6hpaRsNg5kkEHVcbBIXEYoVbMQaHJBXJCyEQ+CiFPV1NIOY0XOFWG4XR4GZcB8Kn6AsRs/9cy9TbqVMQ=="
+  "resolved" "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.6.1.tgz"
+  "version" "4.6.1"
   dependencies:
     "@socket.io/component-emitter" "~3.1.0"
     "debug" "~4.3.2"
@@ -5621,9 +5621,9 @@
   "version" "1.10.2"
 
 "yjs@>=13.5.22":
-  "integrity" "sha512-KIY4BEWYCm79Sr4JTDvgirXmz3lVZ5n7h6nKlsBYu97f/HDQo+XSoq92RqBiybejF9E/L5Iz+56zZrSfBKZ5DQ=="
-  "resolved" "https://registry.npmjs.org/yjs/-/yjs-13.5.46.tgz"
-  "version" "13.5.46"
+  "integrity" "sha512-F7BZ+Bt36OAt+bdSQS7TN43KSxsHjfXWfcLC526tJ3mctO1FYHGEtOrUqpLC7pSp4jPn4rKSYHv1PVQcdb/vIQ=="
+  "resolved" "https://registry.npmjs.org/yjs/-/yjs-13.5.47.tgz"
+  "version" "13.5.47"
   dependencies:
     "lib0" "^0.2.49"
 
