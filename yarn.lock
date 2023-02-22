@@ -519,9 +519,9 @@
     "node-fetch" "^2.6.7"
 
 "@roq/ui-react@^0.2.6-rc11":
-  "integrity" "sha512-MVoTh9mgXKILpQZKSzAjExUvKaEt9eI7JxIEnyQGgmkGOtdyp8995440gI3xIz6qi7HfZlo+l0aDo2zS5ERf5A=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.6-rc11.tgz"
-  "version" "0.2.6-rc11"
+  "integrity" "sha512-qF+MSC7GVhJJfFDbytD9G3SVnzDOueWnSVX0lR7QdN5qrxviYvWkumBinnkIt8r0+ta0QmRglXzVYkmihhXcgA=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.6-rc12.tgz"
+  "version" "0.2.6-rc12"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
