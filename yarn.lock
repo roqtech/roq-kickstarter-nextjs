@@ -518,10 +518,10 @@
     "node-cache" "^5.1.2"
     "node-fetch" "^2.6.7"
 
-"@roq/ui-react@^0.2.6-rc11":
-  "integrity" "sha512-qF+MSC7GVhJJfFDbytD9G3SVnzDOueWnSVX0lR7QdN5qrxviYvWkumBinnkIt8r0+ta0QmRglXzVYkmihhXcgA=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.6-rc12.tgz"
-  "version" "0.2.6-rc12"
+"@roq/ui-react@^0.2.6-rc11", "@roq/ui-react@^0.2.6-rc13":
+  "integrity" "sha512-cYbumKaBtqYLFkz6X4Xm2fxlOHkSr2S6FOx+34Y3rTmAgPj3b9kTXbDABkgow7QIyvfaqtn9/8FDvbcKQO4Pdg=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.6-rc13.tgz"
+  "version" "0.2.6-rc13"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
