@@ -62,9 +62,9 @@
     "regenerator-runtime" "^0.13.11"
 
 "@babel/types@^7.18.6":
-  "integrity" "sha512-uR7NWq2VNFnDi7EYqiRz2Jv/VQIu38tu64Zy8TX2nQFQ6etJ9V/Rr2msW8BS132mum2rL645qpDrLtAJtVpuow=="
-  "resolved" "https://registry.npmjs.org/@babel/types/-/types-7.21.0.tgz"
-  "version" "7.21.0"
+  "integrity" "sha512-3wRZSs7jiFaB8AjxiiD+VqN5DTG2iRvJGQ+qYFrs/654lg6kGTQWIOFjlBo5RaXuAZjBmP3+OQH4dmhqiiyYxw=="
+  "resolved" "https://registry.npmjs.org/@babel/types/-/types-7.21.2.tgz"
+  "version" "7.21.2"
   dependencies:
     "@babel/helper-string-parser" "^7.19.4"
     "@babel/helper-validator-identifier" "^7.19.1"
@@ -202,9 +202,9 @@
     "@floating-ui/dom" "^1.2.1"
 
 "@graphql-typed-document-node/core@^3.1.1":
-  "integrity" "sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg=="
-  "resolved" "https://registry.npmjs.org/@graphql-typed-document-node/core/-/core-3.1.1.tgz"
-  "version" "3.1.1"
+  "integrity" "sha512-9anpBMM9mEgZN4wr2v8wHJI2/u5TnnggewRN6OlvXTTnuVyoY19X6rOv9XTqKRw6dcGKwZsBi8n0kDE2I5i4VA=="
+  "resolved" "https://registry.npmjs.org/@graphql-typed-document-node/core/-/core-3.1.2.tgz"
+  "version" "3.1.2"
 
 "@humanwhocodes/config-array@^0.11.8":
   "integrity" "sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g=="
@@ -489,13 +489,13 @@
     "tiny-glob" "^0.2.9"
     "tslib" "^2.4.0"
 
-"@roq/nextjs@^0.1.61-rc8":
-  "integrity" "sha512-QB+QvIpSoMhcqpteRoFVo/Red7dASm3fWUuNkW9YD0w+vsmIepj4W0x5dQjQ4Ktl0NSJ/BX66kYmhZxkCK5ORA=="
-  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.61-rc8.tgz"
-  "version" "0.1.61-rc8"
+"@roq/nextjs@^0.1.62-rc1":
+  "integrity" "sha512-3CkF/WmUAS7k+C4iZcYb3HMv6Z5nnXhhIgLlcKn851ENnaZN1sUTEmP9J7JWsoECP0X+3tacI8215pIKR8EGRQ=="
+  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.62-rc1.tgz"
+  "version" "0.1.62-rc1"
   dependencies:
-    "@roq/nodejs" "^0.1.15"
-    "@roq/ui-react" "^0.2.6-rc11"
+    "@roq/nodejs" "^0.1.16"
+    "@roq/ui-react" "^0.2.7-rc1"
     "cookie" "^0.5.0"
     "lodash.isempty" "^4.4.0"
     "node-fetch" "^3.3.0"
@@ -506,10 +506,10 @@
     "uuid" "^9.0.0"
     "yup" "^0.32.11"
 
-"@roq/nodejs@^0.1.15":
-  "integrity" "sha512-x2adH2H4sEcuBSgETkgKGfAawVUfM1CY2WdQteFyrcB3rwqbfLhNOVtG7cwHxo+ZDqKt6vZIiTRPawrvGcKMPQ=="
-  "resolved" "https://registry.npmjs.org/@roq/nodejs/-/nodejs-0.1.15.tgz"
-  "version" "0.1.15"
+"@roq/nodejs@^0.1.16":
+  "integrity" "sha512-6eTNht3+JdYXuDECfrb2BrnU/LUkmVFZApMsiWDtg+hqitM4DjGwbuwFIk7ftol0hAcMRSuqTF81PtV8ZyM/aw=="
+  "resolved" "https://registry.npmjs.org/@roq/nodejs/-/nodejs-0.1.16.tgz"
+  "version" "0.1.16"
   dependencies:
     "graphql" "^16.6.0"
     "graphql-request" "^5.0.0"
@@ -518,10 +518,10 @@
     "node-cache" "^5.1.2"
     "node-fetch" "^2.6.7"
 
-"@roq/ui-react@^0.2.6-rc11", "@roq/ui-react@^0.2.6-rc13":
-  "integrity" "sha512-cYbumKaBtqYLFkz6X4Xm2fxlOHkSr2S6FOx+34Y3rTmAgPj3b9kTXbDABkgow7QIyvfaqtn9/8FDvbcKQO4Pdg=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.6-rc13.tgz"
-  "version" "0.2.6-rc13"
+"@roq/ui-react@^0.2.7-rc1":
+  "integrity" "sha512-+Ve+XTvd9C9ORtCsIgC3N4io4V8QOsH+fwJX7msly3wa2tp4q7S4s32Iz5w4w2tuPTelNvk1BQy8MGE05Kv3dg=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.7-rc1.tgz"
+  "version" "0.2.7-rc1"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
@@ -1137,9 +1137,9 @@
   "version" "4.6.3"
 
 "axios@^1.2.2":
-  "integrity" "sha512-eYq77dYIFS77AQlhzEL937yUBSepBfPIe8FcgEDN35vMNZKMrs81pgnyrQpwfy4NF4b4XWX1Zgx7yX+25w8QJA=="
-  "resolved" "https://registry.npmjs.org/axios/-/axios-1.3.3.tgz"
-  "version" "1.3.3"
+  "integrity" "sha512-toYm+Bsyl6VC5wSkfkbbNB6ROv7KY93PEBBL6xyDczaIHasAiv4wPqQ/c4RjoQzipxRD2W5g21cOqQulZ7rHwQ=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-1.3.4.tgz"
+  "version" "1.3.4"
   dependencies:
     "follow-redirects" "^1.15.0"
     "form-data" "^4.0.0"
@@ -1841,9 +1841,9 @@
     "safe-buffer" "^5.0.1"
 
 "electron-to-chromium@^1.4.284":
-  "integrity" "sha512-WETy6tG0CT5gm1O+xCbyapWNsCcmIvrn4NHViIGYo2AT8FV2qUCXdaB+WqYxSv/vS5mFqhBYnfZAAkVArjBmUg=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.305.tgz"
-  "version" "1.4.305"
+  "integrity" "sha512-/xlATgfwkm5uDDwLw5nt/MNEf7c1oazLURMZLy39vOioGYyYzLWIDT8fZMJak6qTiAJ7udFTy7JG7ziyjNutiA=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.310.tgz"
+  "version" "1.4.310"
 
 "elliptic@^6.5.3":
   "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
@@ -2633,7 +2633,7 @@
   dependencies:
     "tslib" "^2.1.0"
 
-"graphql@^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0", "graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0", "graphql@^14.0.0 || ^15.0.0 || ^16.0.0", "graphql@^16.6.0", "graphql@14 - 16":
+"graphql@^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0", "graphql@^14.0.0 || ^15.0.0 || ^16.0.0", "graphql@^16.6.0", "graphql@14 - 16":
   "integrity" "sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw=="
   "resolved" "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz"
   "version" "16.6.0"
@@ -4460,9 +4460,9 @@
     "loose-envify" "^1.1.0"
 
 "readable-stream@^3.5.0":
-  "integrity" "sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA=="
-  "resolved" "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.0.tgz"
-  "version" "3.6.0"
+  "integrity" "sha512-+rQmrWMYGA90yenhTYsLWAsLsqVC8osOw6PKE1HDYiO0gdPeKe/xDHNzIAIn4C91YQ6oenEhfYqqc1883qHbjQ=="
+  "resolved" "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.1.tgz"
+  "version" "3.6.1"
   dependencies:
     "inherits" "^2.0.3"
     "string_decoder" "^1.1.1"
@@ -5121,9 +5121,9 @@
     "terser" "^5.14.1"
 
 "terser@^5.14.1":
-  "integrity" "sha512-5yEGuZ3DZradbogeYQ1NaGz7rXVBDWujWlx1PT8efXO6Txn+eWbfKqB2bTDVmFXmePFkoLU6XI8UektMIEA0ug=="
-  "resolved" "https://registry.npmjs.org/terser/-/terser-5.16.4.tgz"
-  "version" "5.16.4"
+  "integrity" "sha512-qcwfg4+RZa3YvlFh0qjifnzBHjKGNbtDo9yivMqMFDy9Q6FSaQWSB/j1xKhsoUFJIqDOM3TsN6D5xbrMrFcHbg=="
+  "resolved" "https://registry.npmjs.org/terser/-/terser-5.16.5.tgz"
+  "version" "5.16.5"
   dependencies:
     "@jridgewell/source-map" "^0.3.2"
     "acorn" "^8.5.0"
