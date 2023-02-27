@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { withAuth, getServerSession } from "@roq/nextjs";
+import { withAuth, getServerSession } from "@roq/nextjs/server";
 import { FileService } from "server/services/file.service";
 import { FileCategories } from "server/enums";
 import { FilesFetchDto } from "server/dtos/files-fetch.dto";

@@ -1,4 +1,4 @@
-import { Platform } from "@roq/nextjs";
+import { Platform } from "@roq/nextjs/server";
 import { serverConfig } from "config";
 
 export const roqClient = new Platform({
