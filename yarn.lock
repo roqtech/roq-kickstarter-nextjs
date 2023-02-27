@@ -489,13 +489,13 @@
     "tiny-glob" "^0.2.9"
     "tslib" "^2.4.0"
 
-"@roq/nextjs@^0.1.61":
-  "integrity" "sha512-tqOEWnlZvNPdU6P7hU/85JDOdLm9TRp6O1VnfIyyq1cQ6F5AWNKRuz0vn0wMN3lv/cY2wfiwHD4UOs0EOzTF1A=="
-  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.61.tgz"
-  "version" "0.1.61"
+"@roq/nextjs@^0.1.62-rc3":
+  "integrity" "sha512-fIo930xhFZDwbrtTg8H2xAzR+49KP81AWbF8tN5QOiktiEr4iWR+NDpeokParuRX0xejpsWdgxESGE5Pj26fug=="
+  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.62-rc3.tgz"
+  "version" "0.1.62-rc3"
   dependencies:
     "@roq/nodejs" "^0.1.16"
-    "@roq/ui-react" "^0.2.6"
+    "@roq/ui-react" "^0.2.7-rc3"
     "cookie" "^0.5.0"
     "lodash.isempty" "^4.4.0"
     "node-fetch" "^3.3.0"
@@ -518,10 +518,10 @@
     "node-cache" "^5.1.2"
     "node-fetch" "^2.6.7"
 
-"@roq/ui-react@^0.2.6":
-  "integrity" "sha512-v3IerUXqOd/N3A/bGv2BKARl4diXUHiO6aeLldRpefaua4U1MFqPv+c9rOt48QjVzE7r1JsLozg9oOK7mqhw4g=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.6.tgz"
-  "version" "0.2.6"
+"@roq/ui-react@^0.2.7-rc3":
+  "integrity" "sha512-OfC3AvIvKOSRKpaFAgKNJFz27Xzc33TE3eqJO6VRFongUnH8JgYHF0cdxh8unmz/5gC4Z4WJMtj7iv+BLJuclQ=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.7-rc3.tgz"
+  "version" "0.2.7-rc3"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
@@ -1839,9 +1839,9 @@
     "safe-buffer" "^5.0.1"
 
 "electron-to-chromium@^1.4.284":
-  "integrity" "sha512-/xlATgfwkm5uDDwLw5nt/MNEf7c1oazLURMZLy39vOioGYyYzLWIDT8fZMJak6qTiAJ7udFTy7JG7ziyjNutiA=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.310.tgz"
-  "version" "1.4.310"
+  "integrity" "sha512-RoDlZufvrtr2Nx3Yx5MB8jX3aHIxm8nRWPJm3yVvyHmyKaRvn90RjzB6hNnt0AkhS3IInJdyRfQb4mWhPvUjVw=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.311.tgz"
+  "version" "1.4.311"
 
 "elliptic@^6.5.3":
   "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
@@ -4330,16 +4330,16 @@
     "prop-types" "^15.7.2"
 
 "react-infinite-scroll-hook@^4.0.4":
-  "integrity" "sha512-fCjG9xwCfnV9GcAHVz9rXGnLqO55fcYsbeshSxgEH2biF8fVFHmfzZrfX4iTzoOWO1Rrz5hxrK4bBcqL5fAy9Q=="
-  "resolved" "https://registry.npmjs.org/react-infinite-scroll-hook/-/react-infinite-scroll-hook-4.0.4.tgz"
-  "version" "4.0.4"
+  "integrity" "sha512-SIiXcdjPQxfhVz8QL0NqYIMQUx637KxR1LA7OZAXLcFU7a94DMpKBNYNcYjPWAOA630O4fegVItYuBaaw1/9Tw=="
+  "resolved" "https://registry.npmjs.org/react-infinite-scroll-hook/-/react-infinite-scroll-hook-4.1.0.tgz"
+  "version" "4.1.0"
   dependencies:
-    "react-intersection-observer-hook" "^2.0.6"
+    "react-intersection-observer-hook" "^2.1.0"
 
-"react-intersection-observer-hook@^2.0.6":
-  "integrity" "sha512-NTx+4Qat1tS9Bn4CXa6YgmbxLGcxFttV94Us7ZUEZ4mIZD3XaCpnm6U/FU35c6cJOMIfc7UfSzpju69ckfmb+Q=="
-  "resolved" "https://registry.npmjs.org/react-intersection-observer-hook/-/react-intersection-observer-hook-2.0.6.tgz"
-  "version" "2.0.6"
+"react-intersection-observer-hook@^2.1.0":
+  "integrity" "sha512-jW3PRxuZgi14ihmk9nXljOwpycBHWVA6uAZkkFy6Jk+0DmjluBVfGiouirTNoANlk1DcczWkNvSjkO/xf8+WKA=="
+  "resolved" "https://registry.npmjs.org/react-intersection-observer-hook/-/react-intersection-observer-hook-2.1.0.tgz"
+  "version" "2.1.0"
 
 "react-is@^16.13.1", "react-is@^16.7.0":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="

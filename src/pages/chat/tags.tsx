@@ -1,25 +1,20 @@
-import { Chat, requireNextAuth } from "@roq/nextjs";
-import { useRouter } from "next/router";
+import { ChatSidebar, requireNextAuth } from "@roq/nextjs";
 import AppLayout from "layout/app/app.layout";
 import { routes } from "routes";
-import { useCallback, useState, FormEvent } from "react";
+import { useState } from "react";
 
-function ChatWithTagsPage() {
-  const router = useRouter();
-  const [hotel, setHotel] = useState('hotel-1')
-
-  const handleSelectChange = useCallback((e: FormEvent<HTMLSelectElement>) => {
-    setHotel(e.currentTarget.value)
-  }, [])
-
+function ChatPage() {
+  const [hotel, setHotel] = useState('Hotel 1')
+  const [userGroup, setUserGroup] = useState<string | undefined>()
   return (
     <AppLayout>
-      <select onChange={handleSelectChange}>
-        <option value="hotel-1" defaultChecked>hotel 1</option>
-        <option value="hotel-2">hotel 2</option>
-        <option value="hotel-3">hotel 3</option>
+      <select className='input' value={hotel} onChange={e => setHotel(e.target.value)}>
+        <option value='Hotel 1'>Hotel 1</option>
+        <option value='Hotel 2'>Hotel 2</option>
+        <option value='Hotel 3'>Hotel 3</option>
       </select>
-      <Chat tags={[hotel]} />
+      User Group: <input type="text" onChange={(e) => setUserGroup(e.target.value)}/>
+      <ChatSidebar tags={[hotel]} userListGroupsFilter={[userGroup]} />
     </AppLayout>
   );
 }
@@ -27,4 +22,4 @@ function ChatWithTagsPage() {
 export default requireNextAuth({
   redirectIfAuthenticated: false,
   redirectTo: routes.frontend.login,
-})(ChatWithTagsPage);
+})(ChatPage);
