@@ -14,6 +14,7 @@
   background-color: var(--header-color, #fff);
   border-bottom: 1px solid rgba(var(--light-grey-rgb), 0.3);
   z-index: 20;
+  gap: 1.5rem;
 }
 
 .brand {
@@ -22,6 +23,7 @@
 
 .globalNavigation {
   margin-left: auto;
+  overflow-y: auto;
 
   --roc-notification-bell-icon-wrapper-color: #8f90aa;
   --roq-chat-message-bell-icon-color: #8f90aa;
