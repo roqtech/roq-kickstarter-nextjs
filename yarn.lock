@@ -520,9 +520,9 @@
     "node-fetch" "^2.6.7"
 
 "@roq/ui-react@^0.2.8-rc7":
-  "integrity" "sha512-2e40vIqWjr92L+7mPeLgc2sH2xU/ACzemXQj7UzfJ/yozerd8t+97cd3EB179DBSqhPH0f+v6N4S1q626iW1Zg=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.8-rc7.tgz"
-  "version" "0.2.8-rc7"
+  "integrity" "sha512-gdhNAUNN5JRncZnBArqK6El2bvFyp7QSbKohUhzn546LdZ7QAfQSm2QmMbRXzelWx+38CwLQCk7GCd9xzeHe8Q=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.8-rc9.tgz"
+  "version" "0.2.8-rc9"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
@@ -3187,9 +3187,9 @@
     "supports-color" "^8.0.0"
 
 "jose@^4.10.0":
-  "integrity" "sha512-v6BN7fuPVfG9XIxcPT2jzyAg5EmA/mtNeJEXJ7d31Wz7fFOqOZeN8mPtNJYQmnuAIxJII7EcURcbZ7qXs9a4kA=="
-  "resolved" "https://registry.npmjs.org/jose/-/jose-4.13.0.tgz"
-  "version" "4.13.0"
+  "integrity" "sha512-MSJQC5vXco5Br38mzaQKiq9mwt7lwj2eXpgpRyQYNHYt2lq1PjkWa7DLXX0WVcQLE9HhMh3jPiufS7fhJf+CLQ=="
+  "resolved" "https://registry.npmjs.org/jose/-/jose-4.13.1.tgz"
+  "version" "4.13.1"
 
 "js-cookie@^2.2.1":
   "integrity" "sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ=="
