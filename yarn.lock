@@ -520,9 +520,9 @@
     "node-fetch" "^2.6.7"
 
 "@roq/ui-react@^0.2.8-rc10":
-  "integrity" "sha512-PKRi0rO6phGCsUB3F4JaR3+46XcgmEDi8DzkwdY5aW+QYN/qzIvk7ddAYuu6hSLOouQBSeBeG+HjdPPTXhjVng=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.8-rc12.tgz"
-  "version" "0.2.8-rc12"
+  "integrity" "sha512-KtwamPm35iecZVzR+bLcRZpx7xwakpXG1KSxoZWqQ4hWDZuyzjNQBKNuFPIziCD9ReDpM5dmMPKmNOAbVGmQOQ=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.8-rc13.tgz"
+  "version" "0.2.8-rc13"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
