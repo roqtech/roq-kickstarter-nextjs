@@ -10,6 +10,7 @@ export class FileService {
     const filesResult = await roqClient.asUser(currentUserId).files({
       filter: {
         fileCategory: { equalTo: category },
+        createdByUserId: { equalTo: currentUserId },
       },
       limit,
       offset,
