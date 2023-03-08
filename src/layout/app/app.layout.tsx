@@ -5,7 +5,7 @@
 import Head from "next/head";
 import styles from "layout/app/app.layout.module.css";
 import Image from "next/image";
-import { NotificationBell, ChatMessageBell, signOut, useSession, UserProfileAvatar } from "@roq/nextjs";
+import { NotificationBell, ChatMessageBell, signOut, useSession, UserAccountDropdown } from "@roq/nextjs";
 import { useRouter } from "next/router";
 import { routes } from "routes";
 
@@ -43,7 +43,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
               {/* ROQ Notification and Chat bell */}
               <li><NotificationBell /></li>
               <li><ChatMessageBell onClick={() => router.push('/chat')} /></li>
-              <li><UserProfileAvatar /></li>
+              <li><UserAccountDropdown /></li>
               <li><button className="btn btn-sm" onClick={signOut}>Logout</button></li>
             </ul>
           </nav>
