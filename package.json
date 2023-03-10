@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@next/font": "13.1.1",
-    "@roq/nextjs": "^0.1.69-rc2",
+    "@roq/nextjs": "^0.1.69-rc.0",
     "bcrypt": "^5.1.0",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.1",

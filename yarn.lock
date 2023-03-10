@@ -451,9 +451,14 @@
   "resolved" "https://registry.npmjs.org/@next/font/-/font-13.1.1.tgz"
   "version" "13.1.1"
 
-"@next/swc-darwin-x64@13.1.1":
-  "integrity" "sha512-qWr9qEn5nrnlhB0rtjSdR00RRZEtxg4EGvicIipqZWEyayPxhUu6NwKiG8wZiYZCLfJ5KWr66PGSNeDMGlNaiA=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-13.1.1.tgz"
+"@next/swc-linux-x64-gnu@13.1.1":
+  "integrity" "sha512-nnjuBrbzvqaOJaV+XgT8/+lmXrSCOt1YYZn/irbDb2fR2QprL6Q7WJNgwsZNxiLSfLdv+2RJGGegBx9sLBEzGA=="
+  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.1.1.tgz"
+  "version" "13.1.1"
+
+"@next/swc-linux-x64-musl@13.1.1":
+  "integrity" "sha512-CM9xnAQNIZ8zf/igbIT/i3xWbQZYaF397H+JroF5VMOCUleElaMdQLL5riJml8wUfPoN3dtfn2s4peSr3azz/g=="
+  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.1.1.tgz"
   "version" "13.1.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -489,13 +494,13 @@
     "tiny-glob" "^0.2.9"
     "tslib" "^2.4.0"
 
-"@roq/nextjs@^0.1.69-rc2":
-  "integrity" "sha512-vaJL/oRVKc43Fya+obLK7+Z0q9R7jwhIedKoUWDSqvOmAfHEE+pBFXAfIK/gxGW//kG2z8wo7NioH4fpIpVApQ=="
-  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.69-rc2.tgz"
-  "version" "0.1.69-rc2"
+"@roq/nextjs@^0.1.69-rc.0":
+  "integrity" "sha512-nS9kRagnn3o91XpRLLosoNgPf9ejO3s2bduPjuXYLD82Sum7Xplt40TD+PHYaDqOH45MVtrtz0XLQ45wPLdhCw=="
+  "resolved" "https://registry.npmjs.org/@roq/nextjs/-/nextjs-0.1.69-rc.0.tgz"
+  "version" "0.1.69-rc.0"
   dependencies:
     "@roq/nodejs" "^0.1.24"
-    "@roq/ui-react" "^0.2.12-rc1"
+    "@roq/ui-react" "^0.2.12-rc1.1"
     "cookie" "^0.5.0"
     "lodash.isempty" "^4.4.0"
     "node-fetch" "^3.3.0"
@@ -519,10 +524,10 @@
     "node-cache" "^5.1.2"
     "node-fetch" "^2.6.7"
 
-"@roq/ui-react@^0.2.12-rc1":
-  "integrity" "sha512-9J+m02HXKKcs4vpo4p6YTp98zKeSDW+yeniUNyFKgxt6L7xk27UhFTx1sf+RddXbMLy6APRs5FKhENJn7S73FA=="
-  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.12-rc1.tgz"
-  "version" "0.2.12-rc1"
+"@roq/ui-react@^0.2.12-rc1.1":
+  "integrity" "sha512-hyPhdCdiPc1bKvrqClC88npIGYViH6Yn6W8NAIkjawec4fdh45bY77xOVtCHRfBYVEikm9SufRGjT3ZdMOG9oA=="
+  "resolved" "https://registry.npmjs.org/@roq/ui-react/-/ui-react-0.2.12-rc1.1.tgz"
+  "version" "0.2.12-rc1.1"
   dependencies:
     "@apollo/client" "^3.7.1"
     "@floating-ui/react-dom" "^1.2.2"
@@ -1842,9 +1847,9 @@
     "safe-buffer" "^5.0.1"
 
 "electron-to-chromium@^1.4.284":
-  "integrity" "sha512-K1C03NT4I7BuzsRdCU5RWkgZxtswnKDYM6/eMhkEXqKu4e5T+ck610x3FPzu1y7HVFSiQKZqP16gnJzPpji1TQ=="
-  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.325.tgz"
-  "version" "1.4.325"
+  "integrity" "sha512-DIk2H4g/3ZhjgiABJjVdQvUdMlSABOsjeCm6gmUzIdKxAuFrGiJ8QXMm3i09grZdDBMC/d8MELMrdwYRC0+YHg=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.327.tgz"
+  "version" "1.4.327"
 
 "elliptic@^6.5.3":
   "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
@@ -2452,11 +2457,6 @@
   "integrity" "sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw=="
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
-
-"fsevents@~2.3.2":
-  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
-  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  "version" "2.3.2"
 
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
@@ -4461,9 +4461,9 @@
     "loose-envify" "^1.1.0"
 
 "readable-stream@^3.5.0":
-  "integrity" "sha512-+rQmrWMYGA90yenhTYsLWAsLsqVC8osOw6PKE1HDYiO0gdPeKe/xDHNzIAIn4C91YQ6oenEhfYqqc1883qHbjQ=="
-  "resolved" "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.1.tgz"
-  "version" "3.6.1"
+  "integrity" "sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA=="
+  "resolved" "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz"
+  "version" "3.6.2"
   dependencies:
     "inherits" "^2.0.3"
     "string_decoder" "^1.1.1"
