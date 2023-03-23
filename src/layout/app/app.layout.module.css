@@ -17,6 +17,10 @@
   gap: 1.5rem;
 }
 
+.header a{
+  text-decoration: none;
+}
+
 .brand {
   display: inline-flex;
 }

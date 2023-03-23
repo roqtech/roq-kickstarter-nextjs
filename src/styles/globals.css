@@ -37,7 +37,6 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: rgb(var(--primary-color-rgb));
 }
 
