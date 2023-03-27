@@ -6,6 +6,8 @@
 import React, { useState } from "react";
 import styles from "components/file/upload-file.module.css";
 import { useRoqFileUploader, FileUpload } from "@roq/nextjs";
+import useSWRMutation from "swr/mutation";
+import { routes } from "routes";
 
 interface UploadFileProps {
   onSuccess?: () => void;
@@ -15,12 +17,28 @@ interface UploadFileProps {
 export default function UploadFile({ onSuccess, onDelete }: UploadFileProps) {
   const [newFile, setNewFile] = useState<File>();
 
+  const fetcher = (apiURL: string, { arg }: { arg: string }) =>
+    fetch(apiURL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({ url: arg }),
+    }).then((res) => res.json())
+
+  const { trigger: notifyNft } = useSWRMutation(
+    routes.server.notifyNftDrop,
+    fetcher
+  );
+
   // To control the file upload - i.e trigger the upload when required,
   // you can use this hook to get the fileUploader object
   const fileUploader = useRoqFileUploader({
     onUploadSuccess: (file) => {
       onSuccess?.();
       setNewFile(undefined);
+      notifyNft(file?.url)
     },
     onUploadFail: (err) => {
       console.error(err);

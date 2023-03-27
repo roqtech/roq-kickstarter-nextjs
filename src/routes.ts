@@ -7,5 +7,6 @@ export const routes = {
   },
   server: {
     files: "/api/files",
+    notifyNftDrop: "/api/notify",
   },
 };
