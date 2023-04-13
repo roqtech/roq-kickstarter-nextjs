@@ -41,9 +41,9 @@ export default function AppLayout({ children }: AppLayoutProps) {
             <ul className={styles.globalNavigationList}>
               <li className="strong"><Link href={routes.frontend.invites}>Invites</Link></li>
               {/* ROQ Notification and Chat bell */}
-              <li><NotificationBell /></li>
-              <li><ChatMessageBell onClick={() => router.push('/chat')} /></li>
-              <li><UserAccountDropdown /></li>
+              {/* <li><NotificationBell /></li> */}
+              {/* <li><ChatMessageBell onClick={() => router.push('/chat')} /></li> */}
+              {/* <li><UserAccountDropdown /></li> */}
               <li><button className="btn btn-sm" onClick={signOut}>Logout</button></li>
             </ul>
           </nav>

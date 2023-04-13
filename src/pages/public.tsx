@@ -1,5 +1,23 @@
-import { useSession } from "@roq/nextjs";
+import { getServerSession, useSession } from "@roq/nextjs";
 import AppLayout from "layout/app/app.layout";
+import { NextApiRequest } from "next";
+
+export async function getServerSideProps({ req }: { req: NextApiRequest }) {
+  const session = getServerSession(req);
+  console.log(session)
+  if (!session) {
+    return {
+      redirect: {
+        destination: '/api/auth/login',
+        permanent: false
+      }
+    };
+  }
+
+  return {
+    props: {}
+  }
+}
 
 function PublicPage() {
   const { session } = useSession()
