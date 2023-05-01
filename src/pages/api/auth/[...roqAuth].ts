@@ -1,4 +1,4 @@
-import { RoqAuth } from "@roq/nextjs";
+import { RoqAuth } from "@roq/nextjs/server";
 import { UserService } from "server/services/user.service";
 
 /*
@@ -7,6 +7,9 @@ import { UserService } from "server/services/user.service";
     export default RoqAuth; //handles all the authentication routes automatically
 */
 
+export const config = {
+  runtime: 'edge',
+}
 export default RoqAuth({
   hooks: {
     // This hook is optional - and can be used to persist user information,
